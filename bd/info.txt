@@ -1,0 +1,7 @@
+Servidor de BD
+host: my01.winhost.com
+database: mysql_17753_nsftcc
+user: nsftcc
+password: nsf@tcc
+
+Utilizar prefixo da tabela no padrão: infoX_sgl_produto
