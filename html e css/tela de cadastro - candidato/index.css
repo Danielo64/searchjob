@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+body{
+    display: flex;
+    margin: 0px;
+    background-color: #0077B6;
+}
+
+.container{
+    font-family: Mulish;
+    height: 16px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.cabecalho{
+   height: 100%; 
+}
+
+.logo {
+    height: -40px;
+    padding-right: 60px;
+    
+}
+
+.candidato-login button{
+    font-family: Mulish;
+    font-size: 15px;
+    color: #ffffff;
+    padding-right: 80px;
+    height: 10px;
+    margin-top: 150px;
+
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+}
+
+
+.cadastros-Linkedin button{
+    margin-top: 50px;
+    padding-right: 80px;
+    
+
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+
+}
+
+.cadastros-Google button  {
+    height: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+ }
+
+
+ .linha img{
+    margin-top: 49px;
+    
+    height: 30px;
+    padding-right: 80px;
+ }
+
+ 
+.container-cadastro{
+   margin-top: 30px;
+   font-family: Mulish;
+   font-weight: 300;
+
+   height: -40px;
+   padding-right: 50px;
+   outline: none;
+
+   
+}
+
+
+
+textarea {
+    align-items: column; 
+    padding: 4px 4px;
+
+    font-family: Mulish;
+    font-weight: 500;
+    color:lightslategray;
+
+    resize: none;
+    border-radius: 0px 0px;
+
+    height: 20px;
+    width: 350px;
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+.genero{
+    font-family: Mulish;
+    font-weight: 500;
+    font-size: 14px;
+    padding-right: 90px;
+    padding-top: 19px;
+
+    height: 45px;
+   
+}
+
+.genero button  {
+    height: 19px;
+    font-family: Mulish;
+    font-weight: 300;
+    border: 40px;
+    border-radius: 50px;
+    
+    margin: 13px;
+    padding-top: 19px;
+    padding-right: 13px;
+    padding-bottom: 0px;
+
+    cursor: pointer;
+    
+}
+
+.Termos button {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+
+     
+    padding-top: 0px;
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+}
+
+.Termos{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 15px;
+
+    padding-top: 10px;
+}
+
+.Termos img {
+
+    height: 20px;
+    padding: 5px;
+    
+ 
+}
+
+.Cadastrar img {
+    height: 60px;
+}
+
+
+
+.Cadastrar button{
+    margin-top: 30px;
+
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+}
+
+
+
+.Login button {
+    margin-block-end: 100px;
+    font-family: Mulish;
+    font-size: 15px;
+    color: white;
+
+    background: transparent;
+    border: transparent;
+
+    cursor: pointer;
+   
+   
+}
+
+
