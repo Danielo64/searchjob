@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Mulish-Black;
+    src: url('../assets/fonts/Mulish-Black.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Bold;
+    src: url('../assets/fonts/Mulish-Bold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Extra-Bold;
+    src: url('../assets/fonts/Mulish-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Semi-Bold;
+    src: url('../assets/fonts/Mulish-SemiBold.woff2');
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: 'Mulish', 'sans-serif';
+}
+
+.container {
+    background-color: #00B4D8;
+}
+
+.cabecalho {
+    background-image: url(../assets/images/imagem-login.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-left: 1.5em;
+}
+
+.texto-login {
+    color: white;
+    text-align: center;
+
+    font: 25px Mulish-Black;
+
+    margin-top: -0.2em;
+    margin-left: .3em;
+    margin-bottom: 1em
+}
+
+.corpo-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.2em;
+}
+
+.button-linkedin {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center; 
+}
+
+.button-linkedin button {
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
+
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0.6em;
+    
+    font: 20px Mulish-Bold;
+    color: #7B7575;
+}
+
+.button-linkedin img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -0.5em;
+    margin-right: 0.5em;
+}
+
+.button-google {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.button-google button {
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
+
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 2.8em;
+    padding-bottom: 0.2em;
+    
+    font: 20px Mulish-Bold;
+    color: #7B7575;
+
+    text-align: center;
+}
+
+.button-google img {
+    width: 30px;
+    height: 30px;
+}
+
+.ou {
+    font: 19px Mulish-Bold;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+input {
+    padding-left: 10em;
+}
+
+.email-input {
+    margin-top: 0.5em;
+}
+
+.email-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border: 1px solid black;
+}
+
+.senha-input {
+    margin-top: 1.5em;
+}
+
+.senha-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border: 1px solid black;
+}
+
+.button-entrar {
+    margin-top: 1.5em;
+}
+
+.button-entrar button {
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    cursor: pointer;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+    background-color: #E4A200;
+
+    padding: 0.5em 6.5em 0.5em 6.5em; 
+}
+
+.nao-tem-conta {
+    font: 16px Mulish-Bold;
+    color: white;
+    
+    margin-top: 0.5em;
+}
+
+.cadastre-se {
+    font: 16px Mulish-Bold;
+    color: white;
+}
+
+u {
+    font: 16px Mulish-Bold;
+
+    cursor: pointer;
+}
+
+a:link {
+    color: white;
+}
+  
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
