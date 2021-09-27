@@ -30,7 +30,7 @@ body{
     
 }
 
-.Empresa-login button{
+.Candidato-login button{
     font-family: Mulish;
     font-size: 15px;
     color: #ffffff;
@@ -167,3 +167,4 @@ textarea {
     border: transparent;
 
     cursor: pointer;
+}

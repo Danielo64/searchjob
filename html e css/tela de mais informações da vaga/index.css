@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Mulish-Black;
+    src: url('../assets/fonts/Mulish-Black.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Bold;
+    src: url('../assets/fonts/Mulish-Bold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Extra-Bold;
+    src: url('../assets/fonts/Mulish-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Semi-Bold;
+    src: url('../assets/fonts/Mulish-SemiBold.woff2');
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: 'Mulish', 'sans-serif';
+}
+
+.container {
+    background-color: #00B4D8;
+    padding-bottom: 1.2em;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #0077B6;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.procurar-button button {
+    background-color: #E4A200;
+
+    font: 18px Mulish-Bold;
+    color: white; 
+
+    border-radius: 4px;
+    border: none;
+
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.criar-button button {
+    background-color: #E4A200;
+
+    font: 18px Mulish-Bold;
+    color: white;
+
+    border-radius: 4px;
+    border: none;
+
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+.user-image img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    height: 57px;
+
+    cursor: pointer;
+}
+
+.voltar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.voltar-texto {
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+
+    margin-left: 0.3em;
+}
+
+.informacoes-vaga {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #0096C7;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: 10em;
+    margin-left: 10em;
+
+    justify-content:space-evenly;
+}
+
+.coluna-box-esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-box-meio {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-box-direita {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-nome-vaga-item {
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+
+    padding: 8px;
+}
+
+.coluna-item {
+    font: 15px Mulish-Extra-Bold;
+    color: white;
+
+    padding: 8px;
+}
+
+.coluna-salario-item {
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+    
+    padding: 8px;
+}
+
+.coluna-salario-item b {
+    font: 20px Mulish-Extra-Bold;
+    color: #E4A200;
+}
+
+u {
+    font: 15px Mulish-Extra-Bold;
+    color: white;
+}
+
+.coluna-especial-item {
+    font: 15px Mulish-Semi-Bold;
+    color: white;
+    
+    padding: 8px;
+}
+
+.coluna-especial-item b {
+    font: 15px Mulish-Bold;
+}
+
+.numero-vagas_e_data-vaga-item {
+    font: 15px Mulish-Semi-Bold;
+    color: white;
+    
+    padding: 6px;
+}
+
+.numero-vagas_e_data-vaga-item b {
+    font: 15px Mulish-Bold;
+}
+
+.candidatar-botao-item {
+    margin-top: 1em;
+}
+
+.candidatar-botao-item button {
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    cursor: pointer;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+    background-color: #E4A200;
+
+    padding: 0.5em 5.5em 0.5em 5.5em;
+}
+
+.descricao-vaga {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #0096C7;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 15em;
+    margin-left: 15em;
+}
+
+.descricao {
+    margin-left: 1em;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+}
+
+.exigencias {
+    margin-left: 1em;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+}
+
+.beneficios {
+    margin-left: 1em;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+}
+
+li {
+    font: 15px Mulish-Extra-Bold;
+    color: white;
+
+    padding: 4px;
+}
