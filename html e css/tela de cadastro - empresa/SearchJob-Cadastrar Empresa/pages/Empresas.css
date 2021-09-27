@@ -7,7 +7,7 @@
 body{
     display: flex;
     margin: 0px;
-    background-color: #0077B6;
+    background-color: #0096C7;
 }
 
 .container{
@@ -30,7 +30,7 @@ body{
     
 }
 
-.candidato-login button{
+.Empresa-login button{
     font-family: Mulish;
     font-size: 15px;
     color: #ffffff;
@@ -109,32 +109,6 @@ textarea {
     cursor: pointer;
 }
 
-.genero{
-    font-family: Mulish;
-    font-weight: 500;
-    font-size: 14px;
-    padding-right: 90px;
-    padding-top: 19px;
-
-    height: 45px;
-   
-}
-
-.genero button  {
-    height: 19px;
-    font-family: Mulish;
-    font-weight: 300;
-    border: 40px;
-    border-radius: 50px;
-    
-    margin: 13px;
-    padding-top: 19px;
-    padding-right: 13px;
-    padding-bottom: 0px;
-
-    cursor: pointer;
-    
-}
 
 .Termos button {
     font-family: Mulish;
@@ -196,5 +170,3 @@ textarea {
    
    
 }
-
-
