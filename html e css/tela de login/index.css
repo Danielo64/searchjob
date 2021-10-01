@@ -120,7 +120,7 @@ body {
     font: 20px Mulish-Bold;
     color: #7B7575;
 
-    text-align: center;
+    align-items: center;
 }
 
 .button-google img {

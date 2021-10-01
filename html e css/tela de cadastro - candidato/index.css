@@ -19,9 +19,13 @@
 }
 
 body{
-    display: flex;
     margin: 0px;
-    background-color: #0077B6;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: 'Mulish', 'sans-serif';
 }
 
 .container{
