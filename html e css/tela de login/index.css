@@ -29,7 +29,12 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    
     background-color: #00B4D8;
+
+    padding-bottom: 1.2em;
 }
 
 .cabecalho {
@@ -55,7 +60,7 @@ body {
 
     margin-top: -0.2em;
     margin-left: .3em;
-    margin-bottom: 1em
+    margin-bottom: 1em;
 }
 
 .corpo-login {
@@ -63,7 +68,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1.2em;
 }
 
 .button-linkedin {
@@ -136,7 +140,11 @@ body {
 }
 
 input {
-    padding-left: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .email-input {
@@ -146,10 +154,6 @@ input {
 .email-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
     border: 1px solid black;
 }
 
@@ -160,10 +164,6 @@ input {
 .senha-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
     border: 1px solid black;
 }
 

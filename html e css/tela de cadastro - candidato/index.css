@@ -29,102 +29,215 @@ body{
 }
 
 .container{
-    font-family: Mulish;
-    height: 16px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #00B4D8;
+
+    padding-bottom: 1.2em;
 }
 
 
 .cabecalho{
-   height: 100%; 
+    background-image: url(../assets/images/imagem_candidato.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .logo {
-    height: -40px;
-    padding-right: 60px;
+    text-align: center;
+    margin-left: 1.5em;
     
 }
 
-.empresa-login button{
-    font-family: Mulish;
-    font-size: 15px;
-    color: #ffffff;
-    padding-right: 80px;
-    height: 10px;
-    margin-top: 150px;
+.descricao{
+    color: white;
+    text-align: center;
 
-    background: transparent;
-    border: transparent;
+    font: 25px Mulish-Black;
 
-    cursor: pointer;
+    margin-top: -0.2em;
+    margin-left: .3em;
+    margin-bottom: 1em;
 }
 
-
-.cadastros-Linkedin button{
-    margin-top: 50px;
-    padding-right: 80px;
-    
-
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
-
+.corpo-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.cadastros-Google button  {
-    height: 80px;
-    padding-right: 80px;
-    padding-top: 10px;
+.button-linkedin {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center; 
+}
 
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
- }
-
-
- .linha img{
-    margin-top: 49px;
+.button-linkedin button {
+    display: flex;
+    justify-content: center;
     
+    cursor: pointer;
+
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0.6em;
+    
+    font: 20px Mulish-Bold;
+    color: #7B7575;
+}
+
+.button-linkedin img {
+    width: 30px;
     height: 30px;
-    padding-right: 80px;
- }
+    margin-bottom: -0.5em;
+    margin-right: 0.5em;
+}
 
- 
-.container-cadastro{
-   margin-top: 30px;
-   font-family: Mulish;
-   font-weight: 300;
+.button-google {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
 
-   height: -40px;
-   padding-right: 50px;
-   outline: none;
+.button-google button {
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
 
-   
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 2.8em;
+    padding-bottom: 0.2em;
+    
+    font: 20px Mulish-Bold;
+    color: #7B7575;
+
+    align-items: center;
+}
+
+.button-google img {
+    width: 30px;
+    height: 30px;
 }
 
 
+.ou {
+    font: 19px Mulish-Bold;
+    color: white;
 
-textarea {
-    align-items: column; 
-    padding: 4px 4px;
+    margin-top: 0.5em;
+}
 
-    font-family: Mulish;
-    font-weight: 500;
-    color:lightslategray;
+input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-    resize: none;
-    border-radius: 0px 0px;
+.nome-input {
+    margin-top: 0.5em;
+}
 
-    height: 20px;
-    width: 350px;
-    margin-top: 15px;
+.nome-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
 
-    cursor: pointer;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.email-input {
+    margin-top: 0.8em;
+}
+
+.email-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.senha-input {
+    margin-top: 0.8em;
+}
+
+.senha-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.box-input-cima {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 0.8em;
+}
+
+.nacionalidade-input { 
+    margin-left: 3.2em;
+}
+
+.nacionalidade-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
+}
+
+.localidade-input {
+    margin-right: 1em;
+}
+
+.localidade-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
+}
+
+.box-input-baixo {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 0.8em;
+}
+
+.civil-input {
+    margin-left: 3.2em;
+}
+
+.civil-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
+}
+
+.telefone-input {
+    margin-right: 1em;
+}
+
+.telefone-input input {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
+    border: 1px solid black;
 }
 
 .genero{
