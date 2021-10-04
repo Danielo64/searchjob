@@ -53,6 +53,10 @@ body {
     margin-left: 1.5em;
 }
 
+.logo img {
+    cursor: pointer;
+}
+
 .descricao {
     color: white;
     text-align: center;
