@@ -155,6 +155,8 @@ input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
+
+    cursor: text;
 }
 
 .senha-input {
@@ -165,6 +167,8 @@ input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
+
+    cursor: text;
 }
 
 .button-entrar {
@@ -182,6 +186,11 @@ input {
     background-color: #E4A200;
 
     padding: 0.5em 6.5em 0.5em 6.5em; 
+}
+
+.button-entrar button:hover {
+    background-color: #c98f00;
+    transition: 1s;
 }
 
 .nao-tem-conta {

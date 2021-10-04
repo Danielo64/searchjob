@@ -18,7 +18,7 @@
     src: url('../assets/fonts/Mulish-SemiBold.woff2');
 }
 
-body{
+body {
     margin: 0px;
 }
 
@@ -28,7 +28,7 @@ body{
     font-family: 'Mulish', 'sans-serif';
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     
@@ -38,7 +38,7 @@ body{
 }
 
 
-.cabecalho{
+.cabecalho {
     background-image: url(../assets/images/imagem_candidato.png);
     background-repeat: no-repeat;
 
@@ -51,10 +51,9 @@ body{
 .logo {
     text-align: center;
     margin-left: 1.5em;
-    
 }
 
-.descricao{
+.descricao {
     color: white;
     text-align: center;
 
@@ -72,8 +71,22 @@ body{
     align-items: center;
 }
 
+.voceEEmpresa {
+    margin-top: 2em;
+
+    font: 12px Mulish-Bold;
+    color: white;
+}
+
+.voceEEmpresa u {
+    font: 12px Mulish-Bold;
+    color: white;
+
+    cursor: pointer;
+}
+
 .button-linkedin {
-    margin-top: 1em;
+    margin-top: 1.5em;
     display: flex;
     justify-content: center; 
 }
@@ -104,9 +117,10 @@ body{
 }
 
 .button-google {
-    margin-top: 1em;
     display: flex;
     justify-content: center;
+
+    margin-top: 1em;
 }
 
 .button-google button {
@@ -134,12 +148,20 @@ body{
     height: 30px;
 }
 
+.line-left {
+
+}
+
+.line-right {
+
+}
 
 .ou {
     font: 19px Mulish-Bold;
     color: white;
 
     margin-top: 0.5em;
+    margin-right: 0.5em;
 }
 
 input {
@@ -156,8 +178,10 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+
+    cursor: text;
 }
 
 .email-input {
@@ -169,8 +193,10 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+
+    cursor: text;
 }
 
 .senha-input {
@@ -182,8 +208,10 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+
+    cursor: text;
 }
 
 .box-input-cima {
@@ -194,23 +222,23 @@ input {
 }
 
 .nacionalidade-input { 
-    margin-left: 3.2em;
+    margin-right: 0.5em;
 }
 
 .nacionalidade-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
-}
 
-.localidade-input {
-    margin-right: 1em;
+    cursor: text;
 }
 
 .localidade-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
+
+    cursor: text;
 }
 
 .box-input-baixo {
@@ -221,111 +249,127 @@ input {
 }
 
 .civil-input {
-    margin-left: 3.2em;
+    margin-right: 0.5em;
 }
 
 .civil-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
-}
 
-.telefone-input {
-    margin-right: 1em;
+    cursor: text;
 }
 
 .telefone-input input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
+
+    cursor: text;
 }
 
-.genero{
-    font-family: Mulish;
-    font-weight: 500;
-    font-size: 14px;
-    padding-right: 90px;
-    padding-top: 19px;
+.genero {
+    display: flex;
+    flex-direction: row;
 
-    height: 45px;
-   
+    margin-top: 0.7em;
+
+    margin-right: 8em;
 }
 
-.genero button  {
-    height: 19px;
-    font-family: Mulish;
-    font-weight: 300;
-    border: 40px;
-    border-radius: 50px;
+.sexo {
+    font: 17px Mulish-Semi-Bold;
+    color: white;
     
-    margin: 13px;
-    padding-top: 19px;
-    padding-right: 13px;
-    padding-bottom: 0px;
-
-    cursor: pointer;
-    
+    margin-right: 0.1em;
 }
 
-.Termos button {
-    font-family: Mulish;
-    font-weight: 300;
-    font-size: 15px;
-    color: #ffffff;
-
-     
-    padding-top: 0px;
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
+.input-radio input {
+    margin-top: 0.4em;
+    margin-right: 0.4em;
 }
 
-.Termos{
-    font-family: Mulish;
-    font-weight: 300;
-    font-size: 15px;
-
-    padding-top: 10px;
-}
-
-.Termos img {
-
-    height: 20px;
-    padding: 5px;
-    
- 
-}
-
-.Cadastrar img {
-    height: 60px;
-}
-
-
-
-.Cadastrar button{
-    margin-top: 30px;
-
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
-}
-
-
-
-.Login button {
-    margin-block-end: 100px;
-    font-family: Mulish;
-    font-size: 15px;
+.masc {
+    font: 17px Mulish-Semi-Bold;
     color: white;
 
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
-   
-   
+    margin-right: 0.5em;
 }
 
+.fem {
+    font: 17px Mulish-Semi-Bold;
+    color: white;
+}
 
+.termos-box {
+    display: flex;
+
+    margin-top: 0.5em;
+    margin-right: 3em;
+}
+
+.termos {
+    font: 14px Mulish-Semi-Bold;
+    color: white;
+
+    margin-top: 0.3em;
+}
+
+.avisos-box {
+    display: flex;
+
+    margin-top: 0.2em;
+    margin-right: 4.8em;
+}
+
+.avisos {
+    font: 14px Mulish-Semi-Bold;
+    color: white;
+
+    margin-top: 0.3em;
+}
+
+.input-checkbox {
+    margin-right: 0.1em;
+}
+
+.input-checkbox input {
+    width: 20px;
+    height: 20px;
+}
+
+.button-cadastrar {
+    margin-top: 1em;
+}
+
+.button-cadastrar button{
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    cursor: pointer;
+
+    font: 20px Mulish-Extra-Bold;
+    color: white;
+    background-color: #E4A200;
+
+    padding: 0.5em 6.5em 0.5em 6.5em;
+}
+
+.button-cadastrar button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
+.possuiCadastro {
+    margin-top: 1em;
+
+    font: 12px Mulish-Bold;
+    color: white;
+}
+
+.possuiCadastro u {
+    font: 12px Mulish-Bold;
+    color: white;
+
+    cursor: pointer;
+}

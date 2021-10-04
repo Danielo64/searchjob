@@ -43,6 +43,10 @@ body {
     align-items: center;
 }
 
+.logo img {
+    cursor: pointer;
+}
+
 .procurar-button button {
     background-color: #E4A200;
 
@@ -60,6 +64,11 @@ body {
     cursor: pointer;
 }
 
+.procurar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
 .criar-button button {
     background-color: #E4A200;
 
@@ -75,6 +84,11 @@ body {
     padding-bottom: 0.3em;
 
     cursor: pointer;
+}
+
+.criar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
 }
 
 .user-image {
@@ -99,6 +113,10 @@ body {
     margin-left: 1em;
 }
 
+.voltar img {
+    cursor: pointer;
+}
+
 .voltar-texto {
     font: 20px Mulish-Extra-Bold;
     color: white;
@@ -111,6 +129,7 @@ body {
     flex-direction: row;
 
     background-color: #0096C7;
+    box-shadow: 0 4px 2px -2px #007ba3;
 
     padding-top: 1em;
     padding-bottom: 1em;
@@ -205,12 +224,17 @@ u {
     padding: 0.5em 5.5em 0.5em 5.5em;
 }
 
+.candidatar-botao-item button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
 .descricao-vaga {
     display: flex;
     flex-direction: column;
 
     background-color: #0096C7;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px #007ba3;
 
     padding-top: 1em;
     padding-bottom: 1em;

@@ -12,77 +12,51 @@
 
     <div class="container">
 
-             <div class="cabecalho"><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/My Post (1) 2.png" alt=""></div>
-               <div class="logo"><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Logo.png" alt="">
-               <div class="descricao">Cadastre-se e acesse a milhares de profissionais!</div>
-             </div>
-
-
-             <div class="Candidato-login">
-                 <button>Você é um candidato? Cadastre-se aqui</button>
-             </div>
- 
-
-            <div class="cadastros-Linkedin">
-                <button class="Linkedin"><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Group 62.png" alt=""></button>
-            </div>
-
-            <div class="cadastros-Google">
-                <button class="Google"><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Group 61.png" alt=""></button>
-            </div>
-
-
-            <div class="linha">
-                <img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/linha ou.png" alt="">
-            </div>
-
-
-            <div class="container-cadastro">
-                <div class="Nome da Empresa">
-                    <textarea>Nome da Empresa</textarea> 
+        <div class="cabecalho">
+            <div class="imagem-cabecalho"> 
+                <div class="logo">
+                    <a href="../tela inicial/index.html"> <img src="../assets/images/searchjob-logo.png"></a>
                 </div>
-                <div class="Email">
-                    <textarea>Email</textarea>
-                </div>
-                <div class="Senha">
-                    <textarea>Senha</textarea>
-                </div>
-                <div class="Localidade">
-                    <textarea>Localidade</textarea>
-                </div>
-                <div class="CNPJ">
-                    <textarea>CNPJ</textarea>
-                </div>
-                <div class="Área de Atuação">
-                    <textarea>Área de Atuação</textarea>
-                </div>
-                <div class="Porte da Empresa">
-                    <textarea>Porte da Empresa</textarea>
-                <div>
-            </div>
+
+                <div class="descricao">Cadastre-se e se conecte com milhões de profissionais!</div>
+            </div>     
+        </div>
+
+        <div class="corpo-cadastro">
+            <div class="voceEEmpresa">Você é um candidato? <a href="../tela de cadastro - candidato/index.html"><u>Cadastre-se aqui</u></a></div>
+
+            <div class="button-linkedin"><button> <img src="../assets/images/linkedin.png"> Cadastre-se com o Linkedin </button></div>
+            <div class="button-google"><button> <img src="../assets/images/google.png"> Cadastre-se com o Google </button></div>
             
+            <div class="ou">ou</div>
+
+            <div class="nome-input"><input type="name" placeholder="Nome da empresa"/> </div>
+            <div class="email-input"><input type="email" placeholder="Email"/> </div>
+            <div class="senha-input"><input type="password" placeholder="Senha"/> </div>
+            
+            <div class="box-input-cima">
+                <div class="nacionalidade-input"><input type="location" placeholder="Localidade"/> </div>
+                <div class="localidade-input"><input type="cnpj" placeholder="CNPJ"/> </div>
             </div>
 
-            <div class="Termos">
-                <div>
-                    <button><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Group 66Li e concordo.png" alt=""></button> Li e aceito os Termos e Condições da SearchJob. 
-                </div>
-                <div>
-                    <button><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Group 66Li e concordo.png" alt=""></button> Gostaria de receber avisos de novas vagas.
-                </div>
+            <div class="box-input-baixo">
+                <div class="civil-input"><input type="civil" placeholder="Área de atuação"/> </div>
+                <select name="companySize" id="companySize">
+                    <option value="0">Porte da empresa</option>
+                    <option value="1">Pequeno porte</option>
+                    <option value="2">Médio porte</option>
+                    <option value="3">Grande porte</option>
+                </select>
             </div>
 
-
-            <div class="Cadastrar">
-                <button><img src="../tela de cadastro - empresa/SearchJob-Cadastrar Empresa/assets/images/Group 47Cadastrar.png" alt=""></button>
-            </div>
-           
-            <div class="Login">
-                <button>Já possui um cadastro? Fazer Login</button>
+            <div class="termos-box">
+                <div class="input-checkbox"><input type="checkbox"></div>
+                <div class="termos">Li e aceito os Termos e Condições da SearchJob.</div>
             </div>
 
-    </div>
-
-
+            <div class="button-cadastrar"><a href="../tela inicial/index.html"><button>Cadastrar-se</button></a></div>
+            
+            <div class="possuiCadastro">Já possui um cadastro? <a href="../tela de login/index.html"><u>Fazer Login</u></a></div>
+        </div>
 </body>
 </html
