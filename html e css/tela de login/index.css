@@ -52,6 +52,10 @@ body {
     margin-left: 1.5em;
 }
 
+.logo img {
+    cursor: pointer;
+}
+
 .texto-login {
     color: white;
     text-align: center;
@@ -71,7 +75,7 @@ body {
 }
 
 .button-linkedin {
-    margin-top: 1em;
+    margin-top: 1.5em;
     display: flex;
     justify-content: center; 
 }
@@ -94,11 +98,18 @@ body {
     color: #7B7575;
 }
 
+.button-linkedin button:hover {
+    background-color: #dbdad7;
+    transition: 1s;
+}
+
 .button-linkedin img {
     width: 30px;
     height: 30px;
     margin-bottom: -0.5em;
     margin-right: 0.5em;
+
+    cursor: pointer;
 }
 
 .button-google {
@@ -117,51 +128,34 @@ body {
     border: none;
 
     padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-left: 2.8em;
-    padding-bottom: 0.2em;
+    padding-right: 1.8em;
+    padding-left: 1.8em;
+    padding-bottom: 0.6em;
     
     font: 20px Mulish-Bold;
     color: #7B7575;
+}
 
-    align-items: center;
+.button-google button:hover {
+    background-color: #dbdad7;
+    transition: 1s;
 }
 
 .button-google img {
     width: 30px;
     height: 30px;
-}
-
-.line-or {
-    display: flex;
-    flex-direction: row;
-
-    margin-top: 0.5em;
-}
-
-.line-left { 
-    margin-top: 0.27em;
+    margin-bottom: -0.5em;
     margin-right: 0.5em;
-}
 
-.line-left svg {
-    width: 50px;
-    height: 50px;
-}
-
-.line-right svg {
-    width: 50px;
-    height: 50px;
-}
-
-.line-right {
-    margin-top: 0.27em;
-    margin-left: 0.5em;
+    cursor: pointer;
 }
 
 .or {
     font: 19px Mulish-Bold;
     color: white;
+
+    margin-top: 0.5em;
+    margin-right: 0.5em;
 }
 
 input {
