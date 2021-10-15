@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Mulish-Black;
+    src: url('../assets/fonts/Mulish-Black.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Bold;
+    src: url('../assets/fonts/Mulish-Bold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Extra-Bold;
+    src: url('../assets/fonts/Mulish-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: Mulish-Semi-Bold;
+    src: url('../assets/fonts/Mulish-SemiBold.woff2');
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: 'Mulish', 'sans-serif';
+}
+
+.container {
+    background-color: #00B4D8;
+    padding-bottom: 1.2em;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #0077B6;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.procurar-button button {
+    background-color: #E4A200;
+
+    font: 18px Mulish-Bold;
+    color: white; 
+
+    border-radius: 4px;
+    border: none;
+
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.procurar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
+.criar-button button {
+    background-color: #E4A200;
+
+    font: 18px Mulish-Bold;
+    color: white;
+
+    border-radius: 4px;
+    border: none;
+
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.criar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+.user-image img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    height: 57px;
+
+    cursor: pointer;
+}
+
