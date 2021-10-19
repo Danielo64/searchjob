@@ -165,12 +165,19 @@ body {
     cursor: pointer;
 }
 
-.line-left {
+.box-line {
+    display: flex;
+    justify-content: space-between;
+}
 
+.line-left {
+    margin-top: 0.8em;
+    margin-right: 0.5em;
 }
 
 .line-right {
-
+    margin-top: 0.8em;
+    margin-left: 0.1em;
 }
 
 .ou {
@@ -182,8 +189,8 @@ body {
 }
 
 input {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .nome-input {
@@ -195,8 +202,8 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 6.6em;
-    padding-right: 6.6em;
+    padding-left: 0.7em;
+    padding-right: 25em;
 
     cursor: text;
 }
@@ -210,8 +217,8 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 6.6em;
-    padding-right: 6.6em;
+    padding-left: 0.7em;
+    padding-right: 25em;
 
     cursor: text;
 }
@@ -225,8 +232,8 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
-    padding-left: 6.6em;
-    padding-right: 6.6em;
+    padding-left: 0.7em;
+    padding-right: 25em;
 
     cursor: text;
 }
@@ -247,6 +254,9 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
+    padding-left: 0.7em;
+    padding-right: 5.8em;
+
     cursor: text;
 }
 
@@ -254,6 +264,9 @@ input {
     font: 15px Mulish-Semi-Bold;
     color: #A39C9C;
     border: 1px solid black;
+
+    padding-left: 0.7em;
+    padding-right: 5.8em;
 
     cursor: text;
 }
@@ -274,7 +287,15 @@ input {
     color: #A39C9C;
     border: 1px solid black;
 
+    padding-left: 0.7em;
+    padding-right: 5.8em;
+
     cursor: text;
+}
+
+::placeholder {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
 }
 
 select {
@@ -283,17 +304,30 @@ select {
     border: 1px solid black;
 
     padding-top: 0.27em;
-    padding-right: 1.2em;
+    padding-right: 7.9em;
     padding-bottom: 0.27em;
-    padding-left: 1.2em;
+    padding-left: 0.7em;
+}
+
+option {
+    font: 15px Mulish-Semi-Bold;
+    color: #A39C9C;
 }
 
 .button-adicionar {
     display: flex;
     flex-direction: row;
 
-    margin-top: 1em;
-    margin-right: 9.4em;
+    margin-top: 0.8em;
+    margin-right: 21em;
+}
+
+.adicionar-text {
+    font: 13px Mulish-Extra-Bold;
+    color: #E4A200;
+
+    margin-top: 0.5em;
+    margin-left: 0.5em;
 }
 
 .button-adicionar button {
@@ -302,10 +336,8 @@ select {
 
     cursor: pointer;
 
-    justify-content: center;
-
-    font: 13px Mulish-Extra-Bold;
-    color: #E4A200;
+    display: flex;
+    flex-direction: row;
 
     background-color: white;
 
@@ -331,7 +363,7 @@ select {
     display: flex;
 
     margin-top: 0.5em;
-    margin-right: 3em;
+    margin-right: 15em;
 }
 
 .termos {
