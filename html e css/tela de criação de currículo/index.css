@@ -155,32 +155,32 @@ body {
 
 .line-left {
     margin-top: 0.5em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .line-right {
     margin-top: 0.5em;
-    margin-right: 3.7em;
+    margin-right: 2em;
 }
 
 .line-left1 {
     margin-top: 1em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .line-right1 {
     margin-top: 1em;
-    margin-right: 3.7em;
+    margin-right: 2em;
 }
 
 .line-left2 {
     margin-top: 1em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .line-right2 {
     margin-top: 1em;
-    margin-right: 3.7em;
+    margin-right: 2em;
 }
 
 .objetivo-curriculo {
@@ -194,11 +194,11 @@ body {
 
 .objetivo-textarea {
     margin-top: 0.6em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .objetivo-textarea textarea {
-    padding: 2em 22em;
+    padding: 2em 20.2em;
 
     border: 1px solid black;
 
@@ -216,11 +216,11 @@ body {
 
 .formacao-academica-textarea {
     margin-top: 0.6em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .formacao-academica-textarea textarea {
-    padding: 1.5em 22em;
+    padding: 1.5em 20.2em;
 
     border: 1px solid black;
 
@@ -238,11 +238,11 @@ body {
 
 .experiencia-profissional-textarea {
     margin-top: 0.6em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .experiencia-profissional-textarea textarea {
-    padding: 1.5em 22em;
+    padding: 1.5em 20.2em;
 
     border: 1px solid black;
 
@@ -260,11 +260,11 @@ body {
 
 .idiomas-textarea {
     margin-top: 0.6em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .idiomas-textarea textarea {
-    padding: 1em 22em;
+    padding: 1em 20.2em;
 
     border: 1px solid black;
 
@@ -282,11 +282,11 @@ body {
 
 .atividades-complementares-textarea {
     margin-top: 0.6em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .atividades-complementares-textarea textarea {
-    padding: 1.5em 22em;
+    padding: 1.5em 20.2em;
 
     border: 1px solid black;
 
@@ -299,7 +299,7 @@ body {
     align-self: flex-end;
 
     margin-top: 1em;
-    margin-right: 3.5em;
+    margin-right: 2em;
 }
 
 .salvar-button button {
