@@ -49,13 +49,13 @@ const Container = styled.div`
 .voceEEmpresa {
     margin-top: 2em;
 
-    font: 12px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
 }
 
 .voceEEmpresa u {
-    font: 12px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
 
@@ -82,7 +82,7 @@ const Container = styled.div`
     padding-left: 1.5em;
     padding-bottom: 0.6em;
     
-    font: 20px;
+    font-size: 20px;
     font-weight: 700;
     color: #7B7575;
 }
@@ -121,7 +121,7 @@ const Container = styled.div`
     padding-left: 1.8em;
     padding-bottom: 0.6em;
     
-    font: 20px;
+    font-size: 20px;
     font-weight: 700;
     color: #7B7575;
 }
@@ -156,7 +156,7 @@ const Container = styled.div`
 }
 
 .ou {
-    font: 19px;
+    font-size: 19px;
     font-weight: 700;
     color: white;
 
@@ -174,7 +174,7 @@ input {
 }
 
 .nome-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -190,7 +190,7 @@ input {
 }
 
 .email-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -206,7 +206,7 @@ input {
 }
 
 .senha-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -229,7 +229,7 @@ input {
 }
 
 .nacionalidade-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -241,7 +241,7 @@ input {
 }
 
 .localidade-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -264,7 +264,7 @@ input {
 }
 
 .civil-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -276,7 +276,7 @@ input {
 }
 
 .telefone-input input {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
@@ -303,7 +303,7 @@ input {
 }
 
 .sexo {
-    font: 17px;
+    font-size: 17px;
     font-weight: 600;
     color: white;
     
@@ -316,7 +316,7 @@ input {
 }
 
 .masc {
-    font: 17px;
+    font-size: 17px;
     font-weight: 600;
     color: white;
 
@@ -324,7 +324,7 @@ input {
 }
 
 .fem {
-    font: 17px;
+    font-size: 17px;
     font-weight: 600;
     color: white;
 }
@@ -338,7 +338,7 @@ input {
 }
 
 .adicionar-text {
-    font: 13px;
+    font-size: 13px;
     font-weight: 800;
     color: #E4A200;
 
@@ -383,7 +383,7 @@ input {
 }
 
 .termos {
-    font: 14px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
 
@@ -398,7 +398,7 @@ input {
 }
 
 .avisos {
-    font: 14px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
 
@@ -424,7 +424,7 @@ input {
 
     cursor: pointer;
 
-    font: 20px;
+    font-size: 20px;
     font-weight: 800;
     color: white;
     background-color: #E4A200;
@@ -440,13 +440,13 @@ input {
 .possuiCadastro {
     margin-top: 1em;
 
-    font: 12px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
 }
 
 .possuiCadastro u {
-    font: 12px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
 

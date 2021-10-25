@@ -2,11 +2,11 @@ import { Container } from './styled'
 
 export default function Index() {
     return (
-        <Container>
+        <Container> 
             <div class="cabecalho">
                 <div class="imagem-cabecalho"> 
                     <div class="logo">
-                        <a href="../tela inicial/index.html"> <img src="../assets/images/searchjob-logo.png" alt=""/></a>
+                        <a href="../tela inicial/index.html"> <img src="assets/searchjob-logo.png" alt=""/></a>
                     </div>
 
                     <div class="descricao">Cadastre-se e acesse a milhares de vagas!</div>
@@ -16,13 +16,13 @@ export default function Index() {
             <div class="corpo-cadastro">
                 <div class="voceEEmpresa">Você é uma empresa? <a href="../tela de cadastro - empresa/index.html"><u>Cadastre-se aqui</u></a></div>
 
-                <div class="button-linkedin"><button> <img src="../assets/images/linkedin.png" alt=""/> Cadastre-se com o Linkedin </button></div>
-                <div class="button-google"><button> <img src="../assets/images/google.png" alt=""/> Cadastre-se com o Google </button></div>
+                <div class="button-linkedin"><button> <img src="assets/linkedin.png" alt=""/> Cadastre-se com o Linkedin </button></div>
+                <div class="button-google"><button> <img src="assets/google.png" alt=""/> Cadastre-se com o Google </button></div>
                 
                 <div class="box-line">
-                    <div class="line-left"><img src="../assets/images/linha-triangulo.svg" alt=""/></div>
+                    <div class="line-left"><img src="assets/linha-triangulo.svg" alt=""/></div>
                     <div class="ou">ou</div>
-                    <div class="line-right"><img src="../assets/images/linha-triangulo.svg" alt=""/></div>
+                    <div class="line-right"><img src="assets/linha-triangulo.svg" alt=""/></div>
                 </div>
 
                 <div class="nome-input"><input type="name" placeholder="Nome do candidato"/> </div>
@@ -48,7 +48,7 @@ export default function Index() {
                 </div>
 
                 <div class="button-adicionar"><button> 
-                    <img src="../assets/images/plus-icon.png" alt=""/> 
+                    <img src="assets/plus-icon.png" alt=""/> 
                     <div class="adicionar-text">Adicionar imagem de perfil</div></button>
                 </div>
 
