@@ -35,6 +35,8 @@ body {
     background-color: #00B4D8;
 
     padding-bottom: 1.2em;
+
+    min-height: 100vh;
 }
 
 .cabecalho {
@@ -45,6 +47,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-size: cover;
 }
 
 .logo {

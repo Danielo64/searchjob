@@ -57,7 +57,7 @@ export default function Index() {
     
                 <div class="filtrar-button">
                     <button>
-                        <img src="../assets/images/lupa.svg" alt=""/>
+                        <img src="assets/lupa.svg" alt=""/>
                         <div class="filtrar-text">Filtrar</div>
                     </button>
                 </div>

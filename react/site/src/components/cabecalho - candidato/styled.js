@@ -18,7 +18,8 @@ const Container = styled.div`
 .procurar-button button {
     background-color: #E4A200;
 
-    font: 18px Mulish-Bold;
+    font-size: 18px;
+    font-weight: 700;
     color: white; 
 
     border-radius: 4px;
@@ -40,7 +41,8 @@ const Container = styled.div`
 .criar-button button {
     background-color: #E4A200;
 
-    font: 18px Mulish-Bold;
+    font-size: 18px;
+    font-weight: 700;
     color: white;
 
     border-radius: 4px;

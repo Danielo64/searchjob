@@ -20,7 +20,8 @@ const Container = styled.div`
 }
 
 .numeroVagas {
-    font: 20px Mulish-Bold;
+    font-size: 20px;
+    font-weight: 700;
     color: white;
 
     margin-top: 1em;
@@ -28,14 +29,16 @@ const Container = styled.div`
 }
 
 .totalAnuncios {
-    font: 20px Mulish-Bold;
+    font-size: 20px;
+    font-weight: 700;
     color: white;
 
     margin-left: 2em;
 }
 
 .cargo-text {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-top: 1em;
@@ -59,12 +62,14 @@ const Container = styled.div`
 }
 
 ::placeholder {
-    font: 17px Mulish-Bold;
+    font-size: 17px;
+    font-weight: 700;
     color: #A39C9C;
 }
 
 .localidade-text {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-top: 0.5em;
@@ -88,7 +93,8 @@ const Container = styled.div`
 }
 
 .areaProfissional-text {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-top: 0.5em;
@@ -104,11 +110,12 @@ const Container = styled.div`
     border: none;
 
     padding-top: 0.2em;
-    padding-right: 7.8em;
+    padding-right: 8.3em;
     padding-bottom: 0.2em;
     padding-left: 0.5em;
 
-    font: 17px Mulish-Bold;
+    font-size: 17px;
+    font-weight: 700;
     color: #A39C9C;
 }
 
@@ -121,11 +128,12 @@ const Container = styled.div`
     border: none;
 
     padding-top: 0.2em;
-    padding-right: 7em;
+    padding-right: 7.5em;
     padding-bottom: 0.2em;
     padding-left: 0.5em;
 
-    font: 17px Mulish-Bold;
+    font-size: 17px;
+    font-weight: 700;
     color: #A39C9C;
 }
 
@@ -138,21 +146,24 @@ const Container = styled.div`
     border: none;
 
     padding-top: 0.2em;
-    padding-right: 7.8em;
+    padding-right: 8.3em;
     padding-bottom: 0.2em;
     padding-left: 0.5em;
 
-    font: 17px Mulish-Bold;
+    font-size: 17px;
+    font-weight: 700;
     color: #A39C9C;
 }
 
 option {
-    font: 17px Mulish-Bold;
+    font-size: 17px;
+    font-weight: 700;
     color: #A39C9C;
 }
 
 .salario-text {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-top: 0.5em;
@@ -160,7 +171,8 @@ option {
 }
 
 .metodoTrabalho-text {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-top: 0.5em;
@@ -196,7 +208,8 @@ option {
 }
 
 .filtrar-text {
-    font: 20px Mulish-Bold;
+    font-size: 20px;
+    font-weight: 700;
     color: white;
 
     margin-top: 0.2em;
@@ -239,7 +252,8 @@ option {
 }
 
 .nome-vaga {
-    font: 23px Mulish-Extra-Bold;
+    font-size: 23px;
+    font-weight: 800;
     color: white;
 
     margin-top: 0.3em;
@@ -247,14 +261,16 @@ option {
 }
 
 .nome-empresa u {
-    font: 18px Mulish-Extra-Bold;
+    font-size: 18px;
+    font-weight: 800;
     color: white;
 
     margin-left: 1.3em;
 }
 
 .descricao-vaga {
-    font: 15px Mulish-Extra-Bold;
+    font-size: 15px;
+    font-weight: 800;
     color: white;
 
     margin-top: 0.5em;
@@ -273,14 +289,16 @@ option {
 }
 
 .salario-vaga {
-    font: 19px Mulish-Extra-Bold;
+    font-size: 19px;
+    font-weight: 800;
     color: white;
 
     margin-top: 1em;
 }
 
 .salario-vaga b {
-    font: 19px Mulish-Extra-Bold;
+    font-size: 19px;
+    font-weight: 800;
     color: #E4A200;
 }
 
@@ -301,7 +319,8 @@ option {
 
     background-color: #E4A200;
 
-    font: 15px Mulish-Bold;
+    font-size: 15px;
+    font-weight: 700;
     color: white;
 }
 
