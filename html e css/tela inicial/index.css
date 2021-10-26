@@ -1,485 +1,373 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
 
 body {
     margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: 'Mulish', 'sans-serif';
+}
+
+.container {
     display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+
     background-color: #0077B6;
-    
-    
-   
-}
 
-.cabecalho{
-    position: relative;
-    height: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.logo {
-    position: relative;
-    left: 1px;
-    padding: 0px;
-    margin: 0px;
-}
-
 
 .logo img {
-    position: relative;
+    cursor: pointer;
+
+    width: 120px;
     height: 120px;
-    padding: 1px;
-
-    right: -20px;
-    
 }
 
+.procurar-button button {
+    background-color: #E4A200;
 
-.Procurar-Vagas button {
-    position: relative;
-    left: 240px;
-    top: -80px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white; 
 
-    padding: 0px;
+    border-radius: 4px;
+    border: none;
 
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
-}
-.Procurar-Vagas img {
-    position: relative;
-    height: 40px;
-    left: -1px;
-}
-
-.Publicar-Vagas button {
-    position: relative;
-    left: 510px;
-    top: -125px;
-
-    padding: 0px;
-
-    background: transparent ;
-    border: transparent;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
 
     cursor: pointer;
 }
 
-.Publicar-Vagas img {
-    position: relative;
-    height: 40px;
-    left: -1px;
+.procurar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
 }
 
-.Criar-Curriculo button {
-    position: relative;
-    left: 770px;
-    top: -170px;
+.publicar-button button {
+    background-color: #E4A200;
 
-    padding: 0px;
-
-    background: transparent ;
-    border: transparent;
-
-    cursor: pointer;
-}
-
-.Criar-Curriculo img {
-    position: relative;
-    height: 40px;
-    left: -1px;
-}
-
-.Cadastrar button {
-    position: relative;
-    left: 1030px;
-    top: -215px;
-
-    padding: 0px;
-
-    background: transparent;
-    border: transparent;
-
-    cursor: pointer;
-}
-
-.Cadastrar img {
-    position: relative;
-    height: 40px;
-    left: -1px;
-}
-
-
-.Entrar button {
-    position: relative;
-    left: 1200px;
-    top: -260px; 
-
-    padding: 0px;
-
-    background: transparent ;
-    border: transparent;
-
-    cursor: pointer;
-}
-
-.Entrar img {
-    position: relative;
-    height: 40px;
-    left: -1px;
-}
-
-
-
-.container-vagas  {
-    position: relative;
-    height: 995px;
-
-    top: 1450px;
-}
-
-.container-vagas img {
-    position: relative;
-    height: 1050px;
-
-    top: -1350px;
-}
-
-
-.Frase1 {
-    position: relative;
-    top: -2150px;
-    font-family: Mulish;
-    height: 16px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.Frase2 {
-    position: relative;
-    top: -2130px;
-    font-family: Mulish;
-    height: 16px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.Frase3 {
-    position: relative;
-    top: -2090px;
-    font-family: Mulish;
-    height: 16px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.busca textarea {
-    position: relative;
-    left: 320px;
-    top: -2030px;
-    height: 30px;
-
-   
-
-    font-family: Mulish;
-    font-weight: 500;
-    color:lightslategray;
-
-    resize: none;
-    border-radius: 0px 0px;
-    padding: 5px 5px;
-    
-}
-
-.botton-buscar button {
-    position: relative;
-    left: 500px;
-    top: -2100px; 
-
-    padding: 30px 145px;
-
-    background: transparent;
-    resize: none;
-    border: transparent;
-
-    cursor: pointer;
-    
-}
-
-.botton-buscar img {
-    position: relative;
-    left: 800px;
-    height: 50px;
-    top: -2080px;
-}
-
-
-.container-profissao {
-    background-color: rgb(60, 134, 218);
-    font-family: Mulish;
-    font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 700;
     color: white;
 
-    position: relative;
-    text-align: center;
-    padding: 100px;
-    bottom: -100px;
+    border-radius: 4px;
+    border: none;
 
-    height: 1500px;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.publicar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
+.criar-button button {
+    background-color: #E4A200;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    border-radius: 4px;
+    border: none;
+
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    cursor: pointer;
+}
+
+.criar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
+}
+
+.buttons-line {
+    display: flex;
+}
+
+.cadastre-button {
+    margin-top: 0.7em;
+    margin-right: 0.6em;
+}
+
+.entrar-button {
+    margin-top: 0.7em;
+    margin-left: 0.6em;
+}
+
+.cadastre-button button {
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #E4A200;
+
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #E4A200;
+    background-color: white;
+
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.cadastre-button button:hover {
+    background-color: #e3e2e1;
+    transition: 1s;
+}
+
+.entrar-button button {
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #E4A200;
+
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #E4A200;
+    background-color: white;
+
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.entrar-button button:hover {
+    background-color: #e3e2e1;
+    transition: 1s;
+}
+
+.faixa1-inicio {
+    background-image: url(../assets/images/imagem-fundo-incio.png);
+    background-position: 20% 20%;
     
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-bottom: 18em;
+}
+
+.frase-principal1-inicio {
+    margin-top: 5em;
     
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+.frase-principal2-inicio {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+.qualVaga-inicio {
+    margin-top: 1em;
     
-
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
 }
 
-.Frase4 {
-    position: relative;
+.input-button-box {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 1.5em;
+}
+
+.cargo-input {
+    margin-right: 8em;
+}
+
+.cargo-input input {
+    font-size: 18px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: none;
+
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+    padding-bottom: 0.5em;
+
+    cursor: text;
+}
+
+::placeholder {
+    font-size: 18px;
+    font-weight: 600;
+    color: #A39C9C;
+}
+
+.buscar-button {
+    margin-top: -0.2em;
+}
+
+.buscar-button button {
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
     
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+
+    padding: 0.3em 3em 0.3em 3em;
+    
+    background-color: #E4A200;
 }
 
-.box-profissao {
-     padding: 60px;
-     position: relative;
-
-     
-     
- 
-     
+.buscar-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
 }
 
-.button-Administracao button {
-    position: relative;
-    padding: 5px 5px;
-    right: 300px;
-    bottom: -65px;
+.buscar-button img {
+    cursor: pointer;
+}
+
+.buscar-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.3em;
+    margin-left: 0.5em;
 
     cursor: pointer;
-    background-color: transparent;
-    border: transparent;
 }
 
-.button-Administracao img{
-    position: relative;
-    height: 180px;
+.faixa2-inicio {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #0096C7;
 }
 
-.button-Agro button {
-    position: relative;
-    padding: 5px 5px;
-    top: -127px;
+.selecione {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 20em;
+
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+}
+
+.box-areas {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 1em;
+}
+
+.area img {
+    cursor: pointer;
+}
+
+.area-aaa {
+    margin-top: -1.2em;
 
     cursor: pointer;
-    background-color: transparent;
-    border: transparent;
 }
 
-.button-Agro img{
-    position: relative;
-    height: 180px;
+.area-aaa img {
+    cursor: pointer;
 }
 
-.button-Coz button {
-    position: relative;
-    padding: 5px 5px;
-    top: -320px;
-    left: 300px;
+.ver-vagas-button {
+    margin-left: 32.5em;
+    margin-bottom: 2em;
+}
+
+.ver-vagas-button button {
+    border-radius: 50px 50px 50px 50px;
+    border: none;
 
     cursor: pointer;
-    background-color: transparent;
-    border: transparent;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #E4A200;
+
+    padding: 0.5em 1em 0.5em 1em;
 }
 
-.button-Coz img {
-    position: relative;
-    height: 180px;
+.ver-vagas-button button:hover {
+    background-color: #c98f00;
+    transition: 1s;
 }
 
-.button-Edu button {
-    position: relative;
-    padding: 5px 5px;
-    right: 300px;
-    top: -195px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-
-}
-
-.button-Edu img {
-    position: relative;
-    height: 180px;
-}
-
-.button-Fina button {
-    position: relative;
-    padding: 5px 5px;
-    top: -375px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.button-Fina img {
-    position: relative;
-    height: 175px;
-}
-
-.button-Jurico button {
-    position: relative;
-    padding: 5px 5px;
-    left: 300px;
-    top: -560px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.button-Jurico img {
-    position: relative;
-    height: 175px;
-}
-
-.button-Engenha button {
-    position: relative;
-    padding: 5px 5px;
-    right: 300px;
-    top: -412px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.button-Engenha img {
-    position: relative;
-    height: 180px;
-}
-
-.button-Saude button {
-    position: relative;
-    padding: 5px 5px;
-    top: -605px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.button-Saude img {
-    position: relative;
-    height: 180px;
-}
-
-
-.button-Tec button {
-    position: relative;
-    padding: 5px 5px;
-    left: 300px;
-    top: -800px;
-
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.button-Tec img {
-    position: relative;
-    height: 180px;
-}
-
-.rodape {
+.rodape-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     background-color: #023E8A;
-    font-family: Mulish;
-    font-weight: 600;
-    font-size: 22px;
+}
+
+.siga {
+    font-size: 25px;
+    font-weight: 700;
     color: white;
 
-    position: relative;
-    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.ver-tudo button {
-    position: relative;
-    left: 240px;
-    top: 50px;
+.redes-sociais-box {
+    display: flex;
+    margin-bottom: 2em;
+}
 
-    padding: 15px 15px;
+.instagram {
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.facebook img {
     cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-
 }
 
-.ver-tudo img {
-    position: relative;
-    height: 60px;
-    top: -750px;
-    right: 240px;
+.instagram img {
+    cursor: pointer;
 }
 
+.youtube img {
+    cursor: pointer;
+}
 
-
-.rodape {
-    text-align: center;
+a:link {
     color: white;
-    font-family: Mulish;
-    font-size: 20px;
-    font-weight: 600;
-
-    position: relative;
-    
-    padding: 90px;
-    bottom: -100px;
-    height: 200px;
-    
+}
+  
+a:visited {
+    color: white;
 }
 
-.Frase5 {
-    position: relative;
-    top: -60px;
+a:hover {
+    color: white;
 }
 
-.facebook button {
-    position: relative;
-    right: 200px;
-    
-    padding: 1px 1px;
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
+a:active {
+    color: white;
 }
-
-.instagram button {
-    position: relative;
-    left: 1px;
-    top: -56px;
-    
-    padding: 1px 1px;
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
-.Youtube button {
-    position: relative;
-    left: 200px;
-    top: -110px;
-    
-    padding: 1px 1px;
-    cursor: pointer;
-    background-color: transparent;
-    border: transparent;
-}
-
