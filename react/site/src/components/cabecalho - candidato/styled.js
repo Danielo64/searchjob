@@ -13,6 +13,9 @@ const Container = styled.div`
 
 .logo img {
     cursor: pointer;
+
+    width: 120px;
+    height: 120px;
 }
 
 .procurar-button button {
