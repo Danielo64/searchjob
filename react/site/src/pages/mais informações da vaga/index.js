@@ -7,7 +7,7 @@ export default function Index() {
         <Container>
             <Cabecalho />
             <div class="voltar">
-                <a href="../tela de procura/index.html"><div class="seta"><img src="assets/botao-voltar.png"/></div></a>
+                <a href="../tela de procura/index.html"><div class="seta"><img src="assets/botao-voltar.png" alt=""/></div></a>
                 <div class="voltar-texto">Voltar para Vagas</div>
             </div>
 
