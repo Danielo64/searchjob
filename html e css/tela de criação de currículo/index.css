@@ -323,3 +323,10 @@ body {
     background-color: #c98f00;
     transition: 1s;
 }
+@media (max-width: 1280px) {
+    .objetivo-textarea { margin-left: 3em; }
+    .formacao-academica-textarea { margin-left: 3em; }
+    .experiencia-profissional-textarea { margin-left: 3em; }
+    .idiomas-textarea { margin-left: 3em; }
+    .atividades-complementares-textarea { margin-left: 3em; }
+}

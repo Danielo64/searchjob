@@ -9,3 +9,6 @@ const sequelize = new Sequelize(
     dialect: 'mysql',
     logging: false
 });
+
+const db = initdb(sequelize);
+export default db;
