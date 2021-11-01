@@ -4,7 +4,7 @@ export default function Index() {
     return (
         <Container>
             <div class="voltar">
-            <a href="../tela inicial/index.html"><div class="seta"><img src="../assets/images/botao-voltar.png" alt="" /></div></a>
+            <a href="../tela inicial/index.html"><div class="seta"><img src="assets/botao-voltar.png" alt="" /></div></a>
             <div class="voltar-texto">Voltar para a Página Inicial</div>
         </div>
 
@@ -98,9 +98,9 @@ export default function Index() {
                 </div>
 
                 <div class="box-line">
-                    <div class="line-left"><img src="../assets/images/line-curriculo.svg" alt="" /></div>
+                    <div class="line-left"><img src="assets/line-curriculo.svg" alt="" /></div>
                     <div class="objetivo-curriculo">Currículo</div>
-                    <div class="line-right"><img src="../assets/images/line-curriculo.svg" alt="" /></div>
+                    <div class="line-right"><img src="assets/line-curriculo.svg" alt="" /></div>
                 </div>
 
                 <div class="exigenciaTextarea">
