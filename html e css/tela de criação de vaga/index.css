@@ -17,6 +17,8 @@ body {
     flex-direction: column;
 
     background-color: #0077B6;
+
+    padding-bottom: 1.8em;
 }
 
 .voltar {
@@ -504,4 +506,9 @@ body {
 .remover-button button:hover {
     background-color: #c98f00;
     transition: 1s;
+}
+
+@media (max-width: 1300px) {
+    .container { padding-bottom: 1.8em; }
+    .left-box { height: 48em; }
 }

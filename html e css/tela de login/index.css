@@ -1,22 +1,4 @@
-@font-face {
-    font-family: Mulish-Black;
-    src: url('../assets/fonts/Mulish-Black.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Bold;
-    src: url('../assets/fonts/Mulish-Bold.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Extra-Bold;
-    src: url('../assets/fonts/Mulish-ExtraBold.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Semi-Bold;
-    src: url('../assets/fonts/Mulish-SemiBold.woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
 
 body {
     margin: 0px;
@@ -62,7 +44,8 @@ body {
     color: white;
     text-align: center;
 
-    font: 25px Mulish-Black;
+    font-size: 25px;
+    font-weight: 900;
 
     margin-top: -0.2em;
     margin-left: .3em;
@@ -89,7 +72,8 @@ input {
 }
 
 .email-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
@@ -101,7 +85,8 @@ input {
 }
 
 .senha-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
@@ -118,7 +103,8 @@ input {
 
     cursor: pointer;
 
-    font: 20px Mulish-Extra-Bold;
+    font-size: 20px;
+    font-weight: 800;
     color: white;
     background-color: #E4A200;
 
@@ -131,21 +117,24 @@ input {
 }
 
 .nao-tem-conta {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
     
     margin-top: 0.5em;
 }
 
 .cadastre-se {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
 
     margin-bottom: 1em;
 }
 
 u {
-    font: 16px Mulish-Bold;
+    font-size: 16px;
+    font-weight: 700;
 
     cursor: pointer;
 }

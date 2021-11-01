@@ -364,3 +364,7 @@ input {
 
     cursor: pointer;
 }
+
+@media (max-width: 1300px) {
+    .corpo-cadastro { padding-bottom: 2.2em; }
+}
