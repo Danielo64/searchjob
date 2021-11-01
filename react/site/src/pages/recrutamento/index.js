@@ -15,6 +15,7 @@ export default function Index() {
                 <div class="cardCandidato-boxx">
                     <div class="foto-left-box">
                         <img src="assets/joana-image.jpg" alt="" />
+                        <img src="assets/joana-image.jpg"/>
                     </div>
                     <div class="nome-localidade-box">
                         <div class="nomeCandidato">Joana da Silva</div>
@@ -25,6 +26,7 @@ export default function Index() {
                 <div class="cardCandidato-box">
                     <div class="foto-left-box">
                         <img src="assets/jonathan-image.jpg" alt=""/>
+                        <img src="assets/jonathan-image.jpg"/>
                     </div>
                     <div class="nome-localidade-box">
                         <div class="nomeCandidato">Jonathan Alves</div>
