@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom'
+
 import { Container } from './styled'
 
 export default function Index() {
     return (
-        <Container> 
+        <Container>
             <div class="cabecalho">
                 <div class="imagem-cabecalho"> 
                     <div class="logo">
-                        <a href="../tela inicial/index.html"> <img src="assets/searchjob-logo.png" alt=""/></a>
+                        <Link to="/"> <img src="assets/searchjob-logo.png" alt="" /> </Link>
                     </div>
 
                     <div class="descricao">Cadastre-se e acesse a milhares de vagas!</div>
@@ -14,16 +16,7 @@ export default function Index() {
             </div>
 
             <div class="corpo-cadastro">
-                <div class="voceEEmpresa">Você é uma empresa? <a href="../tela de cadastro - empresa/index.html"><u>Cadastre-se aqui</u></a></div>
-
-                <div class="button-linkedin"><button> <img src="assets/linkedin.png" alt=""/> Cadastre-se com o Linkedin </button></div>
-                <div class="button-google"><button> <img src="assets/google.png" alt=""/> Cadastre-se com o Google </button></div>
-                
-                <div class="box-line">
-                    <div class="line-left"><img src="assets/linha-triangulo.svg" alt=""/></div>
-                    <div class="ou">ou</div>
-                    <div class="line-right"><img src="assets/linha-triangulo.svg" alt=""/></div>
-                </div>
+                <div class="voceEEmpresa">Você é uma empresa? <Link to="/cadastro-empresa"> <u>Cadastre-se aqui</u> </Link></div>
 
                 <div class="nome-input"><input type="name" placeholder="Nome do candidato"/> </div>
                 <div class="email-input"><input type="email" placeholder="Email"/> </div>
@@ -48,7 +41,7 @@ export default function Index() {
                 </div>
 
                 <div class="button-adicionar"><button> 
-                    <img src="assets/plus-icon.png" alt=""/> 
+                    <img src="assets/plus-icon.png" alt="" /> 
                     <div class="adicionar-text">Adicionar imagem de perfil</div></button>
                 </div>
 
@@ -57,9 +50,9 @@ export default function Index() {
                     <div class="termos">Li e aceito os Termos e Condições da SearchJob.</div>
                 </div>
 
-                <div class="button-cadastrar"><a href="../tela inicial/index.html"><button>Cadastrar-se</button></a></div>
+                <div class="button-cadastrar"><Link to="/"> <button>Cadastrar-se</button> </Link></div>
                 
-                <div class="possuiCadastro">Já possui um cadastro? <a href="../tela de login/index.html"><u>Fazer Login</u></a></div>
+                <div class="possuiCadastro">Já possui um cadastro? <Link to="/login"> <u>Fazer Login</u> </Link></div>
             </div>
         </Container>
     )

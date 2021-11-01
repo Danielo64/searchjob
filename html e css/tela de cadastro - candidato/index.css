@@ -1,22 +1,4 @@
-@font-face {
-    font-family: Mulish-Black;
-    src: url('../assets/fonts/Mulish-Black.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Bold;
-    src: url('../assets/fonts/Mulish-Bold.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Extra-Bold;
-    src: url('../assets/fonts/Mulish-ExtraBold.woff2');
-}
-
-@font-face {
-    font-family: Mulish-Semi-Bold;
-    src: url('../assets/fonts/Mulish-SemiBold.woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
 
 body {
     margin: 0px;
@@ -36,7 +18,6 @@ body {
 
     padding-bottom: 1.2em;
 }
-
 
 .cabecalho {
     background-image: url(../assets/images/imagem_candidato.png);
@@ -61,7 +42,8 @@ body {
     color: white;
     text-align: center;
 
-    font: 25px Mulish-Black;
+    font-size: 25px;
+    font-weight: 900;
 
     margin-top: -0.2em;
     margin-left: .3em;
@@ -77,115 +59,19 @@ body {
 
 .voceEEmpresa {
     margin-top: 2em;
+    margin-bottom: 1em;
 
-    font: 12px Mulish-Bold;
+    font-size: 13px;
+    font-weight: 700;
     color: white;
 }
 
 .voceEEmpresa u {
-    font: 12px Mulish-Bold;
+    font-size: 13px;
+    font-weight: 700;
     color: white;
 
     cursor: pointer;
-}
-
-.button-linkedin {
-    margin-top: 1.5em;
-    display: flex;
-    justify-content: center; 
-}
-
-.button-linkedin button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-    padding-bottom: 0.6em;
-    
-    font: 20px Mulish-Bold;
-    color: #7B7575;
-}
-
-.button-linkedin button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-linkedin img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.button-google {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-}
-
-.button-google button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.8em;
-    padding-left: 1.8em;
-    padding-bottom: 0.6em;
-    
-    font: 20px Mulish-Bold;
-    color: #7B7575;
-}
-
-.button-google button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-google img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.box-line {
-    display: flex;
-    justify-content: space-between;
-}
-
-.line-left {
-    margin-top: 0.8em;
-    margin-right: 0.5em;
-}
-
-.line-right {
-    margin-top: 0.8em;
-    margin-left: 0.1em;
-}
-
-.ou {
-    font: 19px Mulish-Bold;
-    color: white;
-
-    margin-top: 0.5em;
-    margin-right: 0.5em;
 }
 
 input {
@@ -198,7 +84,8 @@ input {
 }
 
 .nome-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
@@ -213,7 +100,8 @@ input {
 }
 
 .email-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
@@ -228,7 +116,8 @@ input {
 }
 
 .senha-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
@@ -250,23 +139,25 @@ input {
 }
 
 .nacionalidade-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
 
     cursor: text;
 }
 
 .localidade-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.3em;
 
     cursor: text;
 }
@@ -283,29 +174,32 @@ input {
 }
 
 .civil-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
 
     cursor: text;
 }
 
 .telefone-input input {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.3em;
 
     cursor: text;
 }
 
 ::placeholder {
-    font: 15px Mulish-Semi-Bold;
+    font-size: 15px;
+    font-weight: 600;
     color: #A39C9C;
 }
 
@@ -315,11 +209,12 @@ input {
 
     margin-top: 0.7em;
 
-    margin-right: 19.8em;
+    margin-right: 21em;
 }
 
 .sexo {
-    font: 17px Mulish-Semi-Bold;
+    font-size: 17px;
+    font-weight: 600;
     color: white;
     
     margin-right: 0.1em;
@@ -331,14 +226,16 @@ input {
 }
 
 .masc {
-    font: 17px Mulish-Semi-Bold;
+    font-size: 17px;
+    font-weight: 600;
     color: white;
 
     margin-right: 0.5em;
 }
 
 .fem {
-    font: 17px Mulish-Semi-Bold;
+    font-size: 17px;
+    font-weight: 600;
     color: white;
 }
 
@@ -347,15 +244,18 @@ input {
     flex-direction: row;
 
     margin-top: 0.5em;
-    margin-right: 21em;
+    margin-right: 22em;
 }
 
 .adicionar-text {
-    font: 13px Mulish-Extra-Bold;
+    font-size: 13px;
+    font-weight: 800;
     color: #E4A200;
 
     margin-top: 0.5em;
     margin-left: 0.5em;
+
+    cursor: pointer;
 }
 
 .button-adicionar button {
@@ -391,11 +291,12 @@ input {
     display: flex;
 
     margin-top: 0.5em;
-    margin-right: 15em;
+    margin-right: 16em;
 }
 
 .termos {
-    font: 14px Mulish-Semi-Bold;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
 
     margin-top: 0.3em;
@@ -409,7 +310,8 @@ input {
 }
 
 .avisos {
-    font: 14px Mulish-Semi-Bold;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
 
     margin-top: 0.3em;
@@ -428,13 +330,14 @@ input {
     margin-top: 1em;
 }
 
-.button-cadastrar button{
+.button-cadastrar button {
     border-radius: 50px 50px 50px 50px;
     border: none;
 
     cursor: pointer;
 
-    font: 20px Mulish-Extra-Bold;
+    font-size: 20px;
+    font-weight: 800;
     color: white;
     background-color: #E4A200;
 
@@ -449,12 +352,14 @@ input {
 .possuiCadastro {
     margin-top: 1em;
 
-    font: 12px Mulish-Bold;
+    font-size: 13px;
+    font-weight: 700;
     color: white;
 }
 
 .possuiCadastro u {
-    font: 12px Mulish-Bold;
+    font-size: 13px;
+    font-weight: 700;
     color: white;
 
     cursor: pointer;

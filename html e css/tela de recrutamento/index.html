@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+        width: 20px;
+        }
+    
+        /* Track */
+        ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    
+        background-color: #ADE8F4;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #48CAE4; 
+        border-radius: 10px;
+        }
+    
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: #41b9d1; 
+        }
+    </style>
+
     <link rel="stylesheet" href="index.css">
     <title>Recrutamento | SearchJob</title>
     <link rel="shortcut icon" href="../assets/images/searchjob-logo.png">
@@ -71,80 +98,52 @@
             </div>
 
             <div class="right-box">
-                <div class="box-input1">
-                    <div class="nomeVagaInput">
-                        <div class="nomeeVaga">Nome da vaga</div>
-                        <div class="vaga-input"><input></div>
+                <div class="imagemInformacoesCandidato-box">
+                    <div class="foto-right-box">
+                        <img src="../assets/images/joana-image.jpg"/>
                     </div>
 
-                    <div class="salarioInput">
-                        <div class="salarioo">Salário</div>
-                        <div class="salario-input"><input></div>
-                    </div>
-                </div>
-
-                <div class="box-input-select">
-                    <div class="areaVagaInput">
-                        <div class="areaVaga">Área da vaga</div>
-                        <div class="area-input"><input></div>
-                    </div>
-
-                    <div class="jornadaTextarea">
-                        <div class="jornada">Jornada</div>
-                        <div class="select-jornada">
-                            <select id="jornada-select" name="jornada-select">
-                                <option value="selection">Selecione uma opção</option>
-                                <option value="5x2">5x2</option>
-                                <option value="12x36">12x36</option>
-                                <option value="12x48">12x48</option>
-                            </select>
-                        </div>
+                    <div class="right-box-candidato">
+                        <div class="nome-candidato">Joana da Silva</div>
+                        <div class="dataNascimento-candidato">20/06/1996 (26 anos)</div>
+                        <div class="civil-candidato">Solteira</div>
+                        <div class="localidade-candidato">Pinheiros, São Paulo - SP</div>
+                        <div class="nacionalidade-candidato">Brasileira</div>
+                        <div class="email-candidato">joanadasilva30@gmail.com</div>
+                        <div class="telefone-candidato">(11) 98875-5931</div>
                     </div>
                 </div>
 
-                <div class="box-input-select">
-                    <div class="contratoSelect">
-                        <div class="contrato">Tipo de contrato</div>
-                        <div class="select-contrato">
-                            <select id="contrato-select" name="contrato-select">
-                                <option value="selection">Selecione uma opção</option>
-                                <option value="jovem">Jovem aprendiz</option>
-                                <option value="estagio">Estágio</option>
-                                <option value="integral">Integral</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="quantidadeVagasInput">
-                        <div class="quantidade">Quantidade de vagas</div>
-                        <div class="quantidade-input"><input></div>
-                    </div>
+                <div class="line"><img src="../assets/images/line-recrutamento.svg"></div>
+                
+                <div class="objetivoTextarea">
+                    <div class="objetivo">Objetivo</div>
+                    <div class="objetivo-textarea"><textarea disabled></textarea></div>
                 </div>
 
-                <div class="descricaoVagaTextarea">
-                    <div class="descricao">Descrição da vaga</div>
-                    <div class="descricao-textarea"><textarea></textarea></div>
+                <div class="formacaoTextarea">
+                    <div class="formacao">Formação acadêmica</div>
+                    <div class="formacao-textarea"><textarea disabled></textarea></div>
                 </div>
 
-                <div class="box-line">
-                    <div class="line-left"><img src="../assets/images/line-curriculo.svg"></div>
-                    <div class="objetivo-curriculo">Currículo</div>
-                    <div class="line-right"><img src="../assets/images/line-curriculo.svg"></div>
+                <div class="experienciaTextarea">
+                    <div class="experiencia">Experiência profissional</div>
+                    <div class="experiencia-textarea"><textarea disabled></textarea></div>
                 </div>
 
-                <div class="exigenciaTextarea">
-                    <div class="exigencia">Exigências</div>
-                    <div class="exigencia-textarea"><textarea></textarea></div>
+                <div class="idiomaTextarea">
+                    <div class="idioma">Idiomas</div>
+                    <div class="idioma-textarea"><textarea disabled></textarea></div>
                 </div>
 
-                <div class="beneficioTextarea">
-                    <div class="beneficio">Benefícios adicionais</div>
-                    <div class="beneficio-textarea"><textarea></textarea></div>
+                <div class="atividadeTextarea">
+                    <div class="atividade">Atividades complementares</div>
+                    <div class="atividade-textarea"><textarea disabled></textarea></div>
                 </div>
 
                 <div class="buttons-box">
-                    <div class="alterar-button"><button>Alterar vaga</button></div>
-                    <div class="remover-button"><button>Remover vaga</button></div>
+                    <div class="enviar-button"><button>Enviar email</button></div>
+                    <div class="remover-button"><button>Remover</button></div>
                 </div>
             </div>
         </div>

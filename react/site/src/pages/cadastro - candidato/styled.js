@@ -9,7 +9,7 @@ const Container = styled.div`
     padding-bottom: 1.2em;
 
 .cabecalho {
-    background-image: url(../assets/images/imagem_candidato.png);
+    background-image: url(assets/imagem_candidato.png);
     background-repeat: no-repeat;
 
     display: flex;
@@ -48,120 +48,19 @@ const Container = styled.div`
 
 .voceEEmpresa {
     margin-top: 2em;
+    margin-bottom: 1em;
 
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 }
 
 .voceEEmpresa u {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 
     cursor: pointer;
-}
-
-.button-linkedin {
-    margin-top: 1.5em;
-    display: flex;
-    justify-content: center; 
-}
-
-.button-linkedin button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-    padding-bottom: 0.6em;
-    
-    font-size: 20px;
-    font-weight: 700;
-    color: #7B7575;
-}
-
-.button-linkedin button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-linkedin img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.button-google {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-}
-
-.button-google button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.8em;
-    padding-left: 1.8em;
-    padding-bottom: 0.6em;
-    
-    font-size: 20px;
-    font-weight: 700;
-    color: #7B7575;
-}
-
-.button-google button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-google img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.box-line {
-    display: flex;
-    justify-content: space-between;
-}
-
-.line-left {
-    margin-top: 0.8em;
-    margin-right: 0.5em;
-}
-
-.line-right {
-    margin-top: 0.8em;
-    margin-left: 0.1em;
-}
-
-.ou {
-    font-size: 19px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.5em;
-    margin-right: 0.5em;
 }
 
 input {
@@ -235,7 +134,7 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
 
     cursor: text;
 }
@@ -247,7 +146,7 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.3em;
 
     cursor: text;
 }
@@ -270,7 +169,7 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
 
     cursor: text;
 }
@@ -282,13 +181,13 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.3em;
 
     cursor: text;
 }
 
 ::placeholder {
-    font: 15px;
+    font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
 }
@@ -299,7 +198,7 @@ input {
 
     margin-top: 0.7em;
 
-    margin-right: 19.8em;
+    margin-right: 21em;
 }
 
 .sexo {
@@ -334,7 +233,7 @@ input {
     flex-direction: row;
 
     margin-top: 0.5em;
-    margin-right: 21em;
+    margin-right: 22em;
 }
 
 .adicionar-text {
@@ -344,6 +243,8 @@ input {
 
     margin-top: 0.5em;
     margin-left: 0.5em;
+
+    cursor: pointer;
 }
 
 .button-adicionar button {
@@ -379,7 +280,7 @@ input {
     display: flex;
 
     margin-top: 0.5em;
-    margin-right: 15em;
+    margin-right: 16em;
 }
 
 .termos {
@@ -418,7 +319,7 @@ input {
     margin-top: 1em;
 }
 
-.button-cadastrar button{
+.button-cadastrar button {
     border-radius: 50px 50px 50px 50px;
     border: none;
 
@@ -440,13 +341,13 @@ input {
 .possuiCadastro {
     margin-top: 1em;
 
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 }
 
 .possuiCadastro u {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 

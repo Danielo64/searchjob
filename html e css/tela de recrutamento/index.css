@@ -101,6 +101,8 @@ body {
     margin-bottom: 1em;
 
     padding-bottom: 1.5em;
+
+    cursor: pointer;
 }
 
 .cardCandidato-box {
@@ -114,17 +116,23 @@ body {
 
     padding-right: 8em;
     padding-bottom: 1.5em;
+
+    cursor: pointer;
 }
 
 .foto-left-box {
     margin-top: 1.5em;
     margin-left: 1em;
+
+    cursor: pointer;
 }
 
 .foto-left-box img {
     width: 52px;
     border-radius: 50%;
     height: 55px;
+
+    cursor: pointer;
 }
 
 .nome-localidade-box {
@@ -132,6 +140,8 @@ body {
     flex-direction: column;
 
     margin-top: 1em;
+
+    cursor: pointer;
 }
 
 .nomeCandidato {
@@ -141,6 +151,8 @@ body {
     
     margin-top: 0.5em;
     margin-left: 1em;
+
+    cursor: pointer;
 }
 
 .localidade {
@@ -150,6 +162,8 @@ body {
 
     margin-top: 0.5em;
     margin-left: 1em;
+
+    cursor: pointer;
 }
 
 .right-box {
@@ -163,165 +177,122 @@ body {
     padding-right: 4em;
 
     height: 40em;
+
+    overflow-y: scroll;
 }
 
-.box-input1 {
-    display: flex;
+.right-box::-webkit-scrollbar {
+	width: 20px;
+}
 
+.right-box::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+    background-color: #ADE8F4;
+}
+
+.right-box::-webkit-scrollbar-thumb {
+	background: #48CAE4; 
+    border-radius: 10px;
+}
+
+.right-box::-webkit-scrollbar-thumb:hover {
+    background: #41b9d1;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemInformacoesCandidato-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-right: 8em;
+}
+
+.foto-right-box {
     margin-top: 1.5em;
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
-.box-input {
+.foto-right-box img {
+    width: 150px;
+    border-radius: 50%;
+    height: 170px;
+}
+
+.right-box-candidato {
     display: flex;
+    flex-direction: column;
 
+    margin-top: 2em;
+    margin-left: 0.6em;
+}
+
+.nome-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.dataNascimento-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.civil-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.localidade-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.nacionalidade-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.email-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.telefone-candidato {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 0.5em;
+}
+
+.line {
+    margin-top: 0.5em;
     margin-left: 5em;
 }
 
-.nomeeVaga {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-}
-
-.vaga-input {
-    margin-top: 0.2em;
-}
-
-.vaga-input input {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 3em;
-
-    cursor: text;
-}
-
-.salarioo {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-
-    margin-left: 1em;
-}
-
-.salario-input {
-    margin-top: 0.2em;
-    margin-left: 1em;
-}
-
-.salario-input input {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 3em;
-
-    cursor: text;
-}
-
-.areaVaga {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.3em;
-}
-
-.area-input {
-    margin-top: 0.2em;
-}
-
-.area-input input {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 3em;
-
-    cursor: text;
-}
-
-.jornada {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.3em;
-    margin-left: 1em;
-}
-
-.select-jornada {
-    margin-top: 0.2em;
-    margin-left: 1em;
-}
-
-.select-jornada select {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 4.9em;
-}
-
-.box-input-select {
-    display: flex;
-
-    margin-left: 5em;
-}
-
-.contrato {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.3em;
-}
-
-.select-contrato {
-    margin-top: 0.2em;
-}
-
-.select-contrato select {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 4.9em;
-}
-
-.quantidade {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.3em;
-    margin-left: 1em;
-}
-
-.quantidade-input {
-    margin-top: 0.2em;
-    margin-left: 1em;
-}
-
-.quantidade-input input {
-    font-size: 17px;
-    font-weight: 600;
-    color: #000;
-    border: none;
-
-    padding-right: 3em;
-
-    cursor: text;
-}
-
-.descricaoVagaTextarea {
+.objetivoTextarea {
     display: flex;
     flex-direction: column;
     
@@ -329,29 +300,26 @@ body {
     margin-left: 5em;
 }
 
-.descricao {
+.objetivo {
     font-size: 17px;
     font-weight: 700;
     color: white;
 }
 
-.descricao-textarea {
+.objetivo-textarea {
     margin-top: 0.2em;
 }
 
-.descricao-textarea textarea {
-    padding: 4em 14.3em;
+.objetivo-textarea textarea {
+    padding: 5em 14.3em;
 
     border: 1px solid black;
+
+    background-color: white;
 
     cursor: text;
 
     resize: none;
-}
-
-.box-line {
-    display: flex;
-    justify-content: space-between;
 }
 
 .objetivo-curriculo {
@@ -360,17 +328,7 @@ body {
     color: white
 }
 
-.line-left {
-    margin-top: 0.5em;
-    margin-left: 5em;
-}
-
-.line-right {
-    margin-top: 0.5em;
-    margin-right: 0em;
-}
-
-.exigenciaTextarea {
+.formacaoTextarea {
     display: flex;
     flex-direction: column;
     
@@ -378,27 +336,29 @@ body {
     margin-left: 5em;
 }
 
-.exigencia {
+.formacao {
     font-size: 17px;
     font-weight: 700;
     color: white;
 }
 
-.exigencia-textarea {
+.formacao-textarea {
     margin-top: 0.2em;
 }
 
-.exigencia-textarea textarea {
-    padding: 1.5em 14.3em;
+.formacao-textarea textarea {
+    padding: 1.8em 14.3em;
 
     border: 1px solid black;
+
+    background-color: white;
 
     cursor: text;
 
     resize: none;
 }
 
-.beneficioTextarea {
+.experienciaTextarea {
     display: flex;
     flex-direction: column;
     
@@ -406,20 +366,82 @@ body {
     margin-left: 5em;
 }
 
-.beneficio {
+.experiencia {
     font-size: 17px;
     font-weight: 700;
     color: white;
 }
 
-.beneficio-textarea {
+.experiencia-textarea {
     margin-top: 0.2em;
 }
 
-.beneficio-textarea textarea {
-    padding: 1.5em 14.3em;
+.experiencia-textarea textarea {
+    padding: 1.8em 14.3em;
 
     border: 1px solid black;
+
+    background-color: white;
+
+    cursor: text;
+
+    resize: none;
+}
+
+.idiomaTextarea {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 0.3em;
+    margin-left: 5em;
+}
+
+.idioma {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.idioma-textarea {
+    margin-top: 0.2em;
+}
+
+.idioma-textarea textarea {
+    padding: 1em 14.3em;
+
+    border: 1px solid black;
+
+    background-color: white;
+
+    cursor: text;
+
+    resize: none;
+}
+
+.atividadeTextarea {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 0.3em;
+    margin-left: 5em;
+}
+
+.atividade {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.atividade-textarea {
+    margin-top: 0.2em;
+}
+
+.atividade-textarea textarea {
+    padding: 2em 14.3em;
+
+    border: 1px solid black;
+
+    background-color: white;
 
     cursor: text;
 
@@ -431,9 +453,10 @@ body {
     justify-content: right;
 
     margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
-.alterar-button button {
+.enviar-button button {
     border-radius: 50px 50px 50px 50px;
     border: none;
 
@@ -447,7 +470,7 @@ body {
     padding: 0.3em 1.5em 0.3em 1.5em;
 }
 
-.alterar-button button:hover {
+.enviar-button button:hover {
     background-color: #c98f00;
     transition: 1s;
 }

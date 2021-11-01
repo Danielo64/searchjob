@@ -222,6 +222,10 @@ a:hover {
 a:active {
     color: white;
 }
+
+@media (min-width: 1300px) {
+    .ver-vagas-button { margin-left: 35.5em; }
+}
 `
 
 export { Container }

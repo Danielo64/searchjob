@@ -8,8 +8,8 @@ const Container = styled.div`
 
     padding-bottom: 1.2em;
 
-.cabecalho {
-    background-image: url(../assets/images/imagem_empresa.png);
+    .cabecalho {
+    background-image: url(assets/imagem_empresa.png);
     background-repeat: no-repeat;
 
     display: flex;
@@ -48,120 +48,19 @@ const Container = styled.div`
 
 .voceEEmpresa {
     margin-top: 2em;
+    margin-bottom: 1em;
 
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 }
 
 .voceEEmpresa u {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 
     cursor: pointer;
-}
-
-.button-linkedin {
-    margin-top: 1.5em;
-    display: flex;
-    justify-content: center; 
-}
-
-.button-linkedin button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-    padding-bottom: 0.6em;
-    
-    font-size: 20px;
-    font-weight: 700;
-    color: #7B7575;
-}
-
-.button-linkedin button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-linkedin img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.button-google {
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-}
-
-.button-google button {
-    display: flex;
-    justify-content: center;
-    
-    cursor: pointer;
-
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    padding-top: 0.5em;
-    padding-right: 1.8em;
-    padding-left: 1.8em;
-    padding-bottom: 0.6em;
-    
-    font-size: 20px;
-    font-weight: 700;
-    color: #7B7575;
-}
-
-.button-google button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-google img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: -0.5em;
-    margin-right: 0.5em;
-
-    cursor: pointer;
-}
-
-.box-line {
-    display: flex;
-    justify-content: space-between;
-}
-
-.line-left {
-    margin-top: 0.8em;
-    margin-right: 0.5em;
-}
-
-.line-right {
-    margin-top: 0.8em;
-    margin-left: 0.1em;
-}
-
-.ou {
-    font-size: 19px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.5em;
-    margin-right: 0.5em;
 }
 
 input {
@@ -224,20 +123,8 @@ input {
     margin-top: 0.8em;
 }
 
-.nacionalidade-input { 
+.localidade-input { 
     margin-right: 0.5em;
-}
-
-.nacionalidade-input input {
-    font-size: 15px;
-    font-weight: 600;
-    color: #A39C9C;
-    border: 1px solid black;
-
-    padding-left: 0.7em;
-    padding-right: 5.8em;
-
-    cursor: text;
 }
 
 .localidade-input input {
@@ -247,7 +134,19 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
+
+    cursor: text;
+}
+
+.cnpj-input input {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 0.7em;
+    padding-right: 5.3em;
 
     cursor: text;
 }
@@ -259,18 +158,18 @@ input {
     margin-top: 0.8em;
 }
 
-.civil-input {
+.area-input {
     margin-right: 0.5em;
 }
 
-.civil-input input {
+.area-input input {
     font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.8em;
+    padding-right: 5.4em;
 
     cursor: text;
 }
@@ -288,7 +187,7 @@ select {
     border: 1px solid black;
 
     padding-top: 0.27em;
-    padding-right: 7.9em;
+    padding-right: 8.5em;
     padding-bottom: 0.27em;
     padding-left: 0.7em;
 }
@@ -304,7 +203,7 @@ option {
     flex-direction: row;
 
     margin-top: 0.8em;
-    margin-right: 21em;
+    margin-right: 22em;
 }
 
 .adicionar-text {
@@ -314,6 +213,8 @@ option {
 
     margin-top: 0.5em;
     margin-left: 0.5em;
+
+    cursor: pointer;
 }
 
 .button-adicionar button {
@@ -410,13 +311,13 @@ option {
 .possuiCadastro {
     margin-top: 1em;
 
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 }
 
 .possuiCadastro u {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
 

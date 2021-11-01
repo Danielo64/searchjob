@@ -130,6 +130,12 @@ body {
     margin-bottom: 1em;
 
     padding-bottom: 1.5em;
+
+    cursor: pointer;
+}
+
+.cardVaga-boxx > div {
+    cursor: pointer;
 }
 
 .cardVaga-box {
@@ -143,6 +149,12 @@ body {
 
     padding-right: 8em;
     padding-bottom: 1.5em;
+
+    cursor: pointer;
+}
+
+.cardVaga-box > div {
+    cursor: pointer;
 }
 
 .nomeVaga {
@@ -167,6 +179,8 @@ body {
     font-size: 18px;
     font-weight: 800;
     color: #E4A200;
+
+    cursor: pointer;
 }
 
 .right-box {
