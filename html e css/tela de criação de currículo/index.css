@@ -183,6 +183,16 @@ body {
     margin-right: 2em;
 }
 
+.line-left3 {
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.line-right3 {
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
 .objetivo-curriculo {
     font: 22px Mulish-Bold;
     color: white;
@@ -323,10 +333,22 @@ body {
     background-color: #c98f00;
     transition: 1s;
 }
+
 @media (max-width: 1280px) {
     .objetivo-textarea { margin-left: 3em; }
     .formacao-academica-textarea { margin-left: 3em; }
     .experiencia-profissional-textarea { margin-left: 3em; }
     .idiomas-textarea { margin-left: 3em; }
     .atividades-complementares-textarea { margin-left: 3em; }
+}
+
+@media (min-width: 1300px) {
+    .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { padding: 2em 23.5em; }
+    .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { padding: 1.5em 23.5em; }
+    .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { padding: 1.5em 23.5em; }
+    .idiomas-textarea { margin-left: 3em; } .idiomas-textarea textarea { padding: 1em 23.5em; }
+    .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { padding: 1.5em 23.5em; }
+
+    .line-left2 { margin-top: 0.3em; } .line-right2 { margin-top: 0.3em; }
+    .line-left1 { margin-top: 0.3em; } .line-right1 { margin-top: 0.3em; }
 }
