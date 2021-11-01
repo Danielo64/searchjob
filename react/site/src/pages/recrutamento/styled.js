@@ -484,6 +484,12 @@ const Container = styled.div`
     background-color: #c98f00;
     transition: 1s;
 }
+
+@media (max-width: 1300px) {
+    { padding-bottom: 1.8em; }
+    .left-box { height: 48em; overflow-y: auto; }
+    .right-box { height: 48em; }
+}
 `
 
 export { Container }

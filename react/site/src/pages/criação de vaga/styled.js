@@ -48,18 +48,18 @@ const Container = styled.div`
 }
 
 .left-box::-webkit-scrollbar {
-	width: 20px;
+    width: 20px;
 }
 
 .left-box::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
     
     background-color: #ADE8F4;
 }
 
 .left-box::-webkit-scrollbar-thumb {
-	background: #00B4D8; 
+    background: #00B4D8; 
     border-radius: 10px;
 }
 
@@ -358,7 +358,8 @@ const Container = styled.div`
 }
 
 .descricao-textarea textarea {
-    padding: 4em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -407,7 +408,8 @@ const Container = styled.div`
 }
 
 .exigencia-textarea textarea {
-    padding: 1.5em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -435,7 +437,8 @@ const Container = styled.div`
 }
 
 .beneficio-textarea textarea {
-    padding: 1.5em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -491,6 +494,12 @@ const Container = styled.div`
 .remover-button button:hover {
     background-color: #c98f00;
     transition: 1s;
+}
+
+@media (max-width: 1300px) {
+    { padding-bottom: 1.8em; }
+    .left-box { height: 48em; overflow-y: auto; }
+    .right-box { height: 48em; }
 }
 `
 

@@ -510,5 +510,7 @@ body {
 
 @media (max-width: 1300px) {
     .container { padding-bottom: 1.8em; }
-    .left-box { height: 48em; }
+    .left-box { height: 48em; overflow-y: auto; }
+    .right-box { height: 48em; }
+    .exigencia-textarea textarea { padding: 3em 14.3em;  }
 }
