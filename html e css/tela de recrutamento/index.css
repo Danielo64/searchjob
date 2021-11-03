@@ -80,14 +80,37 @@ body {
     background: #41b9d1;
 }
 
+.total-select-box {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.select-vaga select {
+    border: none;
+
+    padding-left: 0.5em;
+    width: 14em;
+    height: 1.9em;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+option {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
 .totalCandidatos {
     font-size: 18px;
     font-weight: 700;
     color: white;
 
-    margin-left: 2em;
-
-    margin-top: 3em;
+    margin-left: 3em;
 }
 
 .cardCandidato-boxx {
@@ -311,7 +334,8 @@ body {
 }
 
 .objetivo-textarea textarea {
-    padding: 5em 14.3em;
+    width: 42em;
+    height: 12em;
 
     border: 1px solid black;
 
@@ -347,7 +371,8 @@ body {
 }
 
 .formacao-textarea textarea {
-    padding: 1.8em 14.3em;
+    width: 42em;
+    height: 7em;
 
     border: 1px solid black;
 
@@ -377,7 +402,8 @@ body {
 }
 
 .experiencia-textarea textarea {
-    padding: 1.8em 14.3em;
+    width: 42em;
+    height: 7em;
 
     border: 1px solid black;
 
@@ -407,7 +433,8 @@ body {
 }
 
 .idioma-textarea textarea {
-    padding: 1em 14.3em;
+    width: 42em;
+    height: 6em;
 
     border: 1px solid black;
 
@@ -437,7 +464,8 @@ body {
 }
 
 .atividade-textarea textarea {
-    padding: 2em 14.3em;
+    width: 42em;
+    height: 7em;
 
     border: 1px solid black;
 

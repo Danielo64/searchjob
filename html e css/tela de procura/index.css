@@ -122,18 +122,11 @@ body {
     padding-right: 5em;
 }
 
-.numeroVagas {
-    font: 20px Mulish-Bold;
-    color: white;
-
-    margin-top: 1em;
-    margin-left: 2em;
-}
-
 .totalAnuncios {
     font: 20px Mulish-Bold;
     color: white;
 
+    margin-top: 1em;
     margin-left: 2em;
 }
 
@@ -153,10 +146,9 @@ body {
 .cargo-input input {
     border: none;
 
-    padding-top: 0.5em;
-    padding-right: 12em;
-    padding-bottom: 0.5em;
     padding-left: 0.7em;
+    width: 25.3em;
+    height: 2.2em;
 
     cursor: text;
 }
@@ -182,10 +174,9 @@ body {
 .localidade-input input {
     border: none;
 
-    padding-top: 0.5em;
-    padding-right: 12em;
-    padding-bottom: 0.5em;
     padding-left: 0.7em;
+    width: 25.3em;
+    height: 2.2em;
 
     cursor: text;
 }
@@ -206,10 +197,9 @@ body {
 .select-area select {
     border: none;
 
-    padding-top: 0.2em;
-    padding-right: 7.8em;
-    padding-bottom: 0.2em;
-    padding-left: 0.5em;
+    padding-left: 0.3em;
+    width: 19.8em;
+    height: 1.9em;
 
     font: 17px Mulish-Bold;
     color: #A39C9C;
@@ -223,10 +213,9 @@ body {
 .select-salario select {
     border: none;
 
-    padding-top: 0.2em;
-    padding-right: 7em;
-    padding-bottom: 0.2em;
     padding-left: 0.5em;
+    width: 19.8em;
+    height: 1.9em;
 
     font: 17px Mulish-Bold;
     color: #A39C9C;

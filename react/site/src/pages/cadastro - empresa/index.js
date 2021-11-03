@@ -49,7 +49,7 @@ export default function Index() {
 
             <div class="button-cadastrar"> <Link to="/"> <button>Cadastrar-se</button> </Link> </div>
             
-            <div class="possuiCadastro">Já possui um cadastro? <Link to="/"> <u>Fazer Login</u> </Link> </div>
+            <div class="possuiCadastro">Já possui um cadastro? <Link to="/login"> <u>Fazer Login</u> </Link> </div>
         </div>
         </Container>
     )

@@ -149,6 +149,10 @@ a:active {
 @media (max-width: 1300px) {
     .corpo-cadastro { padding-bottom: 2.2em; }
 }
+
+@media (max-width: 1400px) {
+    .cadastre-se { margin-bottom: 0em; }
+}
 `
 
 export { Container }

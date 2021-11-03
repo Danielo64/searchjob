@@ -9,9 +9,9 @@ export default function Index() {
             <div class="imagem-cabecalho"> 
                 
                 <div class="logo">  
-                    <a href="../tela inicial/index.html">
+                    <Link to="/">
                         <img src="assets/searchjob-logo.png" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div class="texto-login">Por favor, faça login para continuar.</div> 
             </div>

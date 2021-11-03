@@ -208,7 +208,8 @@ body {
 }
 
 .objetivo-textarea textarea {
-    padding: 2em 20.2em;
+    width: 58.9em;
+    height: 7em;
 
     border: 1px solid black;
 
@@ -230,7 +231,8 @@ body {
 }
 
 .formacao-academica-textarea textarea {
-    padding: 1.5em 20.2em;
+    width: 58.9em;
+    height: 7em;
 
     border: 1px solid black;
 
@@ -252,7 +254,8 @@ body {
 }
 
 .experiencia-profissional-textarea textarea {
-    padding: 1.5em 20.2em;
+    width: 58.9em;
+    height: 7em;
 
     border: 1px solid black;
 
@@ -274,7 +277,8 @@ body {
 }
 
 .idiomas-textarea textarea {
-    padding: 1em 20.2em;
+    width: 58.9em;
+    height: 6em;
 
     border: 1px solid black;
 
@@ -296,7 +300,8 @@ body {
 }
 
 .atividades-complementares-textarea textarea {
-    padding: 1.5em 20.2em;
+    width: 58.9em;
+    height: 6em;
 
     border: 1px solid black;
 
@@ -343,11 +348,11 @@ body {
 }
 
 @media (min-width: 1300px) {
-    .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { padding: 2em 23.5em; }
-    .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { padding: 1.5em 23.5em; }
-    .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { padding: 1.5em 23.5em; }
-    .idiomas-textarea { margin-left: 3em; } .idiomas-textarea textarea { padding: 1em 23.5em; }
-    .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { padding: 1.5em 23.5em; }
+    .objetivo-textarea { margin-left: 3em; }
+    .formacao-academica-textarea { margin-left: 3em; }
+    .experiencia-profissional-textarea { margin-left: 3em; }
+    .idiomas-textarea { margin-left: 3em; }
+    .atividades-complementares-textarea { margin-left: 3em; }
 
     .line-left2 { margin-top: 0.3em; } .line-right2 { margin-top: 0.3em; }
     .line-left1 { margin-top: 0.3em; } .line-right1 { margin-top: 0.3em; }

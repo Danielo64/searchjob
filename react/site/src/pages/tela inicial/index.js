@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { Container } from './styled'
 import CabecalhoVisitante from '../../components/cabecalho - visitante'
 
@@ -16,10 +18,10 @@ export default function Index() {
                 <div class="cargo-input"><input type="role" placeholder="Digite aqui o cargo"/></div>
 
                 <div class="buscar-button">
-                    <a href="../tela de procura/index.html"><button>
+                   <Link to="/procura"> <button>
                         <img src="assets/lupa.svg" alt=""/>
                         <div class="buscar-text">Buscar vagas</div>
-                    </button></a>
+                    </button> </Link>
                 </div>
             </div>
         </div>
@@ -45,7 +47,7 @@ export default function Index() {
                 <div class="area"><img src="assets/tecnologia.png" alt=""/></div>
             </div>
 
-            <div class="ver-vagas-button"><a href="../tela de procura/index.html"><button>Ver todas as vagas</button></a></div>
+            <div class="ver-vagas-button"> <Link to="/procura"> <button>Ver todas as vagas</button> </Link> </div>
         </div>
 
         <div class="rodape-inicio">

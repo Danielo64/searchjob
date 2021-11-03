@@ -1,15 +1,17 @@
+import { Link } from 'react-router-dom'
+
 import { Container } from './styled'
 
 export default function Index() {
     return (
         <Container>
             <div class="logo">  
-                <a href="../tela inicial/index.html"><img src="assets/searchjob-logo-pequena.png" alt=""/></a>
+              <Link to="/"> <img src="assets/searchjob-logo-pequena.png" alt=""/> </Link>
             </div>
 
-            <div class="procurar-button"><a href="../tela de procura/index.html"><button>Procurar Vagas</button></a></div>
+            <div class="procurar-button"> <Link to="/procura"> <button>Procurar Vagas</button> </Link> </div>
 
-            <div class="criar-button"><a href="../tela de criação de currículo/index.html"><button>Criar Currículo</button></a></div>
+            <div class="criar-button"> <Link to="/criacao-curriculo"> <button>Criar Currículo</button> </Link> </div>
 
             <div class="user-image"> 
                 <img src="assets/joana-image.jpg" alt=""/>

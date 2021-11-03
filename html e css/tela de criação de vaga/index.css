@@ -227,7 +227,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -251,7 +252,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -274,7 +276,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -299,7 +302,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 4.9em;
+    width: 16em;
+    height: 1.4em;
 }
 
 .box-input-select {
@@ -326,7 +330,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 4.9em;
+    width: 16em;
+    height: 1.4em;
 }
 
 .quantidade {
@@ -349,7 +354,8 @@ body {
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -373,7 +379,8 @@ body {
 }
 
 .descricao-textarea textarea {
-    padding: 4em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -422,7 +429,8 @@ body {
 }
 
 .exigencia-textarea textarea {
-    padding: 1.5em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -450,7 +458,8 @@ body {
 }
 
 .beneficio-textarea textarea {
-    padding: 1.5em 14.3em;
+    width: 42em;
+    height: 10em;
 
     border: 1px solid black;
 
@@ -513,4 +522,13 @@ body {
     .left-box { height: 48em; overflow-y: auto; }
     .right-box { height: 48em; }
     .exigencia-textarea textarea { padding: 3em 14.3em;  }
+}
+
+@media (max-width: 1400px) {
+    .right-box { overflow-y: auto; }
+    .buttons-box { margin-bottom: 1em; }
+    .right-box::-webkit-scrollbar { width: 20px; }
+    .right-box::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey; border-radius: 10px; background-color: #ADE8F4; }
+    .right-box::-webkit-scrollbar-thumb { background: #00B4D8; border-radius: 10px; }
+    .right-box::-webkit-scrollbar-thumb:hover { background: #049ebd; }
 }

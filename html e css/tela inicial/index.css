@@ -105,9 +105,50 @@ body {
     display: flex;
 }
 
-.cadastre-button {
-    margin-top: 0.7em;
-    margin-right: 0.6em;
+.menu {
+    list-style: none;
+    float: left;
+
+    border-radius: 4px;
+
+    border: 2px solid #E4A200;
+    background-color: white;
+
+    margin-right: 1em;
+}
+
+.menu:hover {
+    background-color: #e3e2e1;
+    transition: 1s;
+}
+
+.menu li {
+    position:relative;
+    float:left;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-left: -1.5em;
+    margin-right: 0.5em;
+}
+
+.menu li a { color: #E4A200; text-decoration: none; padding-top: 0.3em; padding-bottom: 0.3em; display: block; }
+
+.menu li  ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul { display: block; }
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
 }
 
 .entrar-button {
@@ -195,7 +236,7 @@ body {
 }
 
 .cargo-input {
-    margin-right: 8em;
+    margin-right: 7em;
 }
 
 .cargo-input input {
@@ -204,9 +245,9 @@ body {
     color: #A39C9C;
     border: none;
 
-    padding-top: 0.5em;
     padding-left: 0.7em;
-    padding-bottom: 0.5em;
+    width: 13em;
+    height: 2.5em;
 
     cursor: text;
 }
