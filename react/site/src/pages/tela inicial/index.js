@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 
 import { Container } from './styled'
 import CabecalhoVisitante from '../../components/cabecalho - visitante'
+import CabecalhoCandidato from '../../components/cabecalho - candidato'
+import CabecalhoEmpresa from '../../components/cabecalho - empresa'
 
 export default function Index() {
     return (

@@ -67,14 +67,37 @@ const Container = styled.div`
     background: #41b9d1;
 }
 
+.total-select-box {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.select-vaga select {
+    border: none;
+
+    padding-left: 0.5em;
+    width: 14em;
+    height: 1.9em;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+option {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
 .totalCandidatos {
     font-size: 18px;
     font-weight: 700;
     color: white;
 
-    margin-left: 2em;
-
-    margin-top: 3em;
+    margin-left: 3em;
 }
 
 .cardCandidato-boxx {

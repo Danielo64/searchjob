@@ -63,11 +63,6 @@ const Container = styled.div`
     cursor: pointer;
 }
 
-input {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
 .nome-input {
     margin-top: 0.5em;
 }
@@ -79,7 +74,8 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 25em;
+    width: 39em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -95,7 +91,8 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 25em;
+    width: 39em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -111,7 +108,8 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 25em;
+    width: 39em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -134,7 +132,8 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.4em;
+    width: 19.3em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -146,7 +145,8 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.3em;
+    width: 19.2em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -169,7 +169,25 @@ input {
     border: 1px solid black;
 
     padding-left: 0.7em;
-    padding-right: 5.4em;
+    width: 19.3em;
+    height: 2.5em;
+
+    cursor: text;
+}
+
+.adicionar-input {
+    margin-top: 0.8em;
+}
+
+.adicionar-input input {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 0.7em;
+    width: 39em;
+    height: 2.5em;
 
     cursor: text;
 }
@@ -183,67 +201,18 @@ input {
 select {
     font-size: 15px;
     font-weight: 600;
-    color: #A39C9C;
+    color: #000;
     border: 1px solid black;
 
-    padding-top: 0.27em;
-    padding-right: 8.5em;
-    padding-bottom: 0.27em;
+    width: 19.2em;
+    height: 2.5em;
     padding-left: 0.7em;
 }
 
 option {
     font-size: 15px;
     font-weight: 600;
-    color: #A39C9C;
-}
-
-.button-adicionar {
-    display: flex;
-    flex-direction: row;
-
-    margin-top: 0.8em;
-    margin-right: 22em;
-}
-
-.adicionar-text {
-    font-size: 13px;
-    font-weight: 800;
-    color: #E4A200;
-
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-
-    cursor: pointer;
-}
-
-.button-adicionar button {
-    border-radius: 50px 50px 50px 50px;
-    border: none;
-
-    cursor: pointer;
-
-    display: flex;
-    flex-direction: row;
-
-    background-color: white;
-
-    padding-top: 0.4em;
-    padding-right: 1em;
-    padding-bottom: 0.4em;
-    padding-left: 1em;
-}
-
-.button-adicionar button:hover {
-    background-color: #dbdad7;
-    transition: 1s;
-}
-
-.button-adicionar img {
-    width: 30px;
-    height: 30px;
-
-    cursor: pointer;
+    color: #000;
 }
 
 .termos-box {

@@ -212,7 +212,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -236,7 +237,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -259,7 +261,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -284,7 +287,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 4.9em;
+    width: 16em;
+    height: 1.4em;
 }
 
 .box-input-select {
@@ -311,7 +315,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 4.9em;
+    width: 16em;
+    height: 1.4em;
 }
 
 .quantidade {
@@ -334,7 +339,8 @@ const Container = styled.div`
     color: #000;
     border: none;
 
-    padding-right: 3em;
+    width: 16em;
+    height: 1.4em;
 
     cursor: text;
 }
@@ -500,6 +506,15 @@ const Container = styled.div`
     { padding-bottom: 1.8em; }
     .left-box { height: 48em; overflow-y: auto; }
     .right-box { height: 48em; }
+}
+
+@media (max-width: 1400px) {
+    .right-box { overflow-y: auto; }
+    .buttons-box { margin-bottom: 1em; }
+    .right-box::-webkit-scrollbar { width: 20px; }
+    .right-box::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey; border-radius: 10px; background-color: #ADE8F4; }
+    .right-box::-webkit-scrollbar-thumb { background: #00B4D8; border-radius: 10px; }
+    .right-box::-webkit-scrollbar-thumb:hover { background: #049ebd; }
 }
 `
 

@@ -17,7 +17,16 @@ export default function Index() {
 
             <div class="buttons-line">
 
-                <div class="cadastre-button"><button>Cadastre-se</button></div>
+                <nav>
+                    <ul class="menu">
+                                <li>Cadastre-se
+                                   <ul>
+                                        <li> <Link to="/cadastro-candidato"> Como Candidato </Link> </li>
+                                        <li> <Link to="cadastro-empresa"> Como Empresa </Link> </li>
+                                     </ul>
+                              </li>
+                      </ul>
+                </nav>
 
                 <div class="line"><img src="assets/line-vertical.svg" alt=""/></div>
 

@@ -75,11 +75,6 @@ body {
     cursor: pointer;
 }
 
-input {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
 .nome-input {
     margin-top: 0.5em;
 }

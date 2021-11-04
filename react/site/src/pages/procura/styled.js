@@ -33,6 +33,7 @@ const Container = styled.div`
     font-weight: 700;
     color: white;
 
+    margin-top: 1em;
     margin-left: 2em;
 }
 
@@ -53,9 +54,8 @@ const Container = styled.div`
 .cargo-input input {
     border: none;
 
-    padding-top: 0.5em;
-    padding-right: 12em;
-    padding-bottom: 0.5em;
+    width: 25.3em;
+    height: 2.2em;
     padding-left: 0.7em;
 
     cursor: text;
@@ -84,9 +84,8 @@ const Container = styled.div`
 .localidade-input input {
     border: none;
 
-    padding-top: 0.5em;
-    padding-right: 12em;
-    padding-bottom: 0.5em;
+    width: 25.3em;
+    height: 2.2em;
     padding-left: 0.7em;
 
     cursor: text;
@@ -109,14 +108,13 @@ const Container = styled.div`
 .select-area select {
     border: none;
 
-    padding-top: 0.2em;
-    padding-right: 8.3em;
-    padding-bottom: 0.2em;
+    width: 19.8em;
+    height: 1.9em;
     padding-left: 0.5em;
 
     font-size: 17px;
     font-weight: 700;
-    color: #A39C9C;
+    color: #000;
 }
 
 .select-salario {
@@ -127,50 +125,22 @@ const Container = styled.div`
 .select-salario select {
     border: none;
 
-    padding-top: 0.2em;
-    padding-right: 7.5em;
-    padding-bottom: 0.2em;
+    width: 19.8em;
+    height: 1.9em;
     padding-left: 0.5em;
 
     font-size: 17px;
     font-weight: 700;
-    color: #A39C9C;
-}
-
-.select-metodo {
-    margin-top: 0.2em;
-    margin-left: 2.5em;
-}
-
-.select-metodo select {
-    border: none;
-
-    padding-top: 0.2em;
-    padding-right: 8.3em;
-    padding-bottom: 0.2em;
-    padding-left: 0.5em;
-
-    font-size: 17px;
-    font-weight: 700;
-    color: #A39C9C;
+    color: #000;
 }
 
 option {
     font-size: 17px;
     font-weight: 700;
-    color: #A39C9C;
+    color: #000;
 }
 
 .salario-text {
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-
-    margin-top: 0.5em;
-    margin-left: 2.5em;
-}
-
-.metodoTrabalho-text {
     font-size: 16px;
     font-weight: 700;
     color: white;

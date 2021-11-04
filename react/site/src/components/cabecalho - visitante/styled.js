@@ -89,33 +89,62 @@ const Container = styled.div`
     display: flex;
 }
 
-.cadastre-button {
-    margin-top: 0.7em;
-    margin-right: 0.6em;
-}
+.menu {
+    list-style: none;
+    float: left;
 
-.entrar-button {
-    margin-top: 0.7em;
-    margin-left: 0.6em;
-}
-
-.cadastre-button button {
     border-radius: 50px 50px 50px 50px;
-    border: 2px solid #E4A200;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 
-    cursor: pointer;
+    border: 2px solid #E4A200;
+    background-color: white;
+
+    margin-right: 1em;
+}
+
+.menu:hover {
+    background-color: #e3e2e1;
+    transition: 1s;
+}
+
+.menu li {
+    position: relative;
+    float: left;
 
     font-size: 18px;
     font-weight: 700;
     color: #E4A200;
-    background-color: white;
 
-    padding: 0.5em 1em 0.5em 1em;
+    margin-left: -1.5em;
+    margin-right: 0.5em;
 }
 
-.cadastre-button button:hover {
-    background-color: #e3e2e1;
-    transition: 1s;
+.menu li a { color: #E4A200; text-decoration: none; padding-top: 0.3em; padding-bottom: 0.3em; display: block; }
+
+.menu li  ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul { display: block; }
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+.line {
+    margin-top: 0.1em;
+}
+
+.entrar-button {
+    margin-top: 0.9em;
+    margin-left: 0.6em;
 }
 
 .entrar-button button {

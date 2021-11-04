@@ -36,11 +36,8 @@ export default function Index() {
                     <option value="3">Grande porte</option>
                 </select>
             </div>
-
-            <div class="button-adicionar"><button> 
-                <img src="assets/plus-icon.png" alt="" /> 
-                <div class="adicionar-text">Adicionar imagem de perfil</div></button>
-            </div>
+                
+            <div class="adicionar-input"><input type="add" placeholder="Link da imagem"/> </div>
 
             <div class="termos-box">
                 <div class="input-checkbox"><input type="checkbox"/></div>

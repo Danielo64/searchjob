@@ -13,8 +13,16 @@ export default function Index() {
 
             <div class="recrutamento-button"> <Link to="/recrutamento"> <button>Recrutamento</button> </Link> </div>
 
-            <div class="user-image"> 
-                <img src="assets/joana-image.jpg" alt=""/>
+            <div class="image-button-line">
+                <div class="user-image"> 
+                    <img src="assets/microsoft-image.jpeg" alt=""/>
+                </div>
+
+                <div class="ola-nome">Olá, Microsoft</div>
+
+                <div class="line"><img src="assets/line-vertical.svg" alt="" /></div>
+
+                <div class="sair-button"> <Link to="/"> <button>Sair</button> </Link> </div>
             </div>
         </Container>
     )

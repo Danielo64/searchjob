@@ -13,6 +13,12 @@ app.get('/', async (req, resp) => {
     }
 })
 
+// app.get('/') | com filtros de palavras-chave e salário - página de procura //
+
+// app.get('/') | com filtro de áreas - página de procura
+
+// app.get('/') | com filtro dos nomes das vagas, pela empresa - página de recrutamento //
+
 app.post('/', async (req, resp) => {
     try {
         let { nome, salario, empresa, area, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio  } = req.body;

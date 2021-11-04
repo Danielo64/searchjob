@@ -8,7 +8,6 @@ export default function Index() {
             <Cabecalho />
             <div class="leftAndRightBox">
             <div class="left-box">
-                <div class="numeroVagas">350 vagas de emprego</div>
                 <div class="totalAnuncios">Total de anúncios: 171.112</div>
     
                 <div class="cargo-text">Cargo ou palavra-chave</div>
@@ -43,15 +42,6 @@ export default function Index() {
                         <option value="money4000">A partir de R$ 4000,00</option>
                         <option value="money5000">A partir de R$ 5000,00</option>
                         <option value="money6000">A partir de R$ 6000,00</option>
-                    </select>
-                </div>
-    
-                <div class="metodoTrabalho-text">Método de trabalho</div>
-                <div class="select-metodo">
-                    <select id="metodoTrabalho-select" name="metodoTrabalho-select">
-                        <option value="selection">Selecione uma opção</option>
-                        <option value="presencial">Presencial</option>
-                        <option value="homeoffice">Home office</option>
                     </select>
                 </div>
     

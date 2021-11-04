@@ -31,6 +31,8 @@ export default function Index() {
                     <div class="civil-input"><input type="civil" placeholder="Estado civil"/> </div>
                     <div class="telefone-input"><input type="phone" placeholder="Telefone"/> </div>
                 </div>
+
+                <div class="adicionar-input"><input type="add" placeholder="Link da imagem"/> </div>
                 
                 <div class="genero">
                     <div class="sexo">Sexo:</div>
@@ -38,11 +40,6 @@ export default function Index() {
                     <div class="masc">Masculino</div>
                     <div class="input-radio"><input type="radio" name="genre"/></div> 
                     <div class="fem">Feminino</div>
-                </div>
-
-                <div class="button-adicionar"><button> 
-                    <img src="assets/plus-icon.png" alt="" /> 
-                    <div class="adicionar-text">Adicionar imagem de perfil</div></button>
                 </div>
 
                 <div class="termos-box">

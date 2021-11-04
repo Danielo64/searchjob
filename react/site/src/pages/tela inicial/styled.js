@@ -225,6 +225,7 @@ a:active {
 
 @media (min-width: 1300px) {
     .ver-vagas-button { margin-left: 35.5em; }
+    .selecione { margin-left: 22em; }
 }
 `
 

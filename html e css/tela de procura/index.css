@@ -96,8 +96,15 @@ body {
     transition: 1s;
 }
 
+.image-button-line {
+    display: flex;
+    align-items: center;
+}
+
 .user-image {
     border-radius: 50%;
+
+    margin-right: 0.4em;
 }
 
 .user-image img {
@@ -105,8 +112,40 @@ body {
     height: 57px;
     border-radius: 50%;
     height: 57px;
+}
+
+.ola-nome {
+    font: 15px Mulish-Bold;
+    color: white;
+}
+
+.line {
+    margin-top: 0.1em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+.sair-button {
+    margin-top: 0.2em;
+    margin-left: -1em;
+}
+
+.sair-button button {
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #E4A200;
 
     cursor: pointer;
+
+    font: 18px Mulish-Bold;
+    color: #E4A200;
+    background-color: white;
+
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.sair-button button:hover {
+    background-color: #e3e2e1;
+    transition: 1s;
 }
 
 .leftAndRightBox {
@@ -221,37 +260,12 @@ body {
     color: #A39C9C;
 }
 
-.select-metodo {
-    margin-top: 0.2em;
-    margin-left: 2.5em;
-}
-
-.select-metodo select {
-    border: none;
-
-    padding-top: 0.2em;
-    padding-right: 7.8em;
-    padding-bottom: 0.2em;
-    padding-left: 0.5em;
-
-    font: 17px Mulish-Bold;
-    color: #A39C9C;
-}
-
 option {
     font: 17px Mulish-Bold;
     color: #A39C9C;
 }
 
 .salario-text {
-    font: 16px Mulish-Bold;
-    color: white;
-
-    margin-top: 0.5em;
-    margin-left: 2.5em;
-}
-
-.metodoTrabalho-text {
     font: 16px Mulish-Bold;
     color: white;
 

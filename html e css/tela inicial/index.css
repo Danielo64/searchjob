@@ -109,7 +109,9 @@ body {
     list-style: none;
     float: left;
 
-    border-radius: 4px;
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 
     border: 2px solid #E4A200;
     background-color: white;
@@ -123,11 +125,12 @@ body {
 }
 
 .menu li {
-    position:relative;
-    float:left;
+    position: relative;
+    float: left;
 
     font-size: 18px;
     font-weight: 700;
+    color: #E4A200;
 
     margin-left: -1.5em;
     margin-right: 0.5em;
@@ -151,28 +154,13 @@ body {
     width: 150px;
 }
 
+.line {
+    margin-top: 0.1em;
+}
+
 .entrar-button {
-    margin-top: 0.7em;
+    margin-top: 0.9em;
     margin-left: 0.6em;
-}
-
-.cadastre-button button {
-    border-radius: 50px 50px 50px 50px;
-    border: 2px solid #E4A200;
-
-    cursor: pointer;
-
-    font-size: 18px;
-    font-weight: 700;
-    color: #E4A200;
-    background-color: white;
-
-    padding: 0.5em 1em 0.5em 1em;
-}
-
-.cadastre-button button:hover {
-    background-color: #e3e2e1;
-    transition: 1s;
 }
 
 .entrar-button button {
@@ -415,4 +403,5 @@ a:active {
 
 @media (min-width: 1300px) {
     .ver-vagas-button { margin-left: 35.5em; }
+    .selecione { margin-left: 22em; }
 }

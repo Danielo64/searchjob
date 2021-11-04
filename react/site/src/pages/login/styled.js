@@ -52,10 +52,8 @@ const Container = styled.div`
 
 input {
     padding-left: 0.7em;
-    padding-right: 25em;
-
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    width: 39em;
+    height: 2.5em;
 }
 
 .email-input {
@@ -72,7 +70,7 @@ input {
 }
 
 .senha-input {
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 .senha-input input {

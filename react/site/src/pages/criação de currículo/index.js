@@ -1,17 +1,18 @@
+import { Link } from 'react-router-dom'
+
 import { Container } from './styled'
 
 export default function Index() {
     return (
         <Container>
             <div class="voltar">
-                <a href="../tela inicial/index.html"><div class="seta"><img src="assets/botao-voltar.png" alt=""/></div></a>
+               <Link to="/"> <div class="seta"><img src="assets/botao-voltar.png" alt=""/></div> </Link>
                 <div class="voltar-texto">Voltar para a Página Inicial</div>
             </div>
 
             <div class="informacoes-candidato">
                 <div class="left-box-candidato">
                     <div class="imagemPerfil"><img src="assets/joana-image.jpg" alt=""/></div>
-                    <div class="alterarImagem"><u>Alterar foto</u></div>
                 </div>
 
                 <div class="right-box-candidato">
@@ -61,7 +62,7 @@ export default function Index() {
                 </div>
                 <div class="atividades-complementares-textarea"><textarea></textarea></div>
 
-                <div class="salvar-button"><a href="../tela inicial/index.html"><button>Salvar</button></a></div>
+                <div class="salvar-button"> <Link to="/"> <button>Salvar</button> </Link> </div>
             </div>
         </Container>
     )
