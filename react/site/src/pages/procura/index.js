@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Cabecalho from '../../components/cabecalho - candidato'
 
 import { Container } from './styled'
