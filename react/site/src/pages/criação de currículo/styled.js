@@ -316,11 +316,11 @@ const Container = styled.div`
 }
 
 @media (max-width: 1280px) {
-    .objetivo-textarea { margin-left: 3em; }
-    .formacao-academica-textarea { margin-left: 3em; }
-    .experiencia-profissional-textarea { margin-left: 3em; }
-    .idiomas-textarea { margin-left: 3em; }
-    .atividades-complementares-textarea { margin-left: 3em; }
+    .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { width: 54em; height: 7em; }
+    .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { width: 54em; height: 7em; }
+    .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { width: 54em; height: 7em; }
+    .idiomas-textarea { margin-left: 3em; } .idiomas-textarea textarea { width: 54em; height: 6em; }
+    .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { width: 54em; height: 6em; }
 }
 
 @media (min-width: 1300px) {
