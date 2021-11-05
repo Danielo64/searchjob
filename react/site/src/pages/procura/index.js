@@ -82,7 +82,7 @@ export default function Index() {
                     <div class="descricao-vaga">Projete e guie o desenvolvimento de sistemas, aplicativos e programas.</div>
                     <div class="box-salario-button">
                         <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><a href="../tela de mais informações da vaga/index.html"><button>Mais informações</button></a></div>
+                        <div class="maisInformacoes-button"> <Link to="/informacoes"> <button>Mais informações</button> </Link> </div>
                     </div>
                 </div>
 
