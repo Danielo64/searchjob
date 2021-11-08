@@ -18,5 +18,26 @@ export default class Api {
 
     async removerCandidato(id) {
         let r = await api.delete('/candidato' + id);
+        return r.data;
     }
+
+
+    // Empresa
+
+    async listarEmpresa() {
+        let r = await api.get('/empresa');
+        return r.data;
+    }
+
+    async inserirEmpresa() {
+        let r = await api.post('/empresa', { nome, email, senha, cnpj, localidade, atuacao, porte });
+        return r.data;
+    }
+
+    async removerEmpresa(id){
+        let r = await api.delete('/empresa' + id);
+        return r.data;
+    }
+
+    
 }
