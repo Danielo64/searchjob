@@ -31,6 +31,29 @@ app.post('/', async (req, resp) => {
     }
 })
 
+app.put('/:id', async (req, resp) => {
+    try {
+        let { objetivo, formacao, experiencia, idioma, atividade } = req.body;
+        let { id } = req.params;
+
+        let r = await db.tb_matricula.update(
+            {
+                ds_objetivo: objetivo,
+                ds_formacao_academica: formacao,
+                ds_experiencia_profissional: experiencia,
+                ds_idioma: idioma,
+                ds_atividade_complementar: atividade
+            },
+            {
+                where: { id_curriculo: id }
+            }
+        )
+        resp.sendStatus(200);
+    } catch (e) {
+        resp.send({ erro: e.toString() })
+    }
+})
+
 app.delete('/:id', async (req, resp) => {
     try {
         let { id } = req.params;

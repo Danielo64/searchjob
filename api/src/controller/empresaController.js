@@ -15,7 +15,7 @@ app.get('/', async (req, resp) => {
 
 app.post('/', async (req, resp) => {
     try {
-        let { nome, email, senha, cnpj, localidade, atuacao, porte } = req.body;
+        let { nome, email, senha, cnpj, localidade, atuacao, porte, imagem } = req.body;
 
         let r = await db.infod_omn_empresa.create (
         {
@@ -25,8 +25,8 @@ app.post('/', async (req, resp) => {
             ds_cnpj: cnpj,
             ds_localidade: localidade,
             ds_area_atuacao: atuacao,
-            ds_porte: porte
-
+            ds_porte: porte,
+            ds_imagem: imagem
         })
         resp.send(r);
     } catch (e) {
