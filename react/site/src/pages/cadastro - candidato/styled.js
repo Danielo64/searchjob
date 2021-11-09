@@ -114,6 +114,23 @@ const Container = styled.div`
     cursor: text;
 }
 
+.nascimento-input {
+    margin-top: 0.8em;
+}
+
+.nascimento-input input {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 0.7em;
+    width: 39em;
+    height: 2.5em;
+
+    cursor: text;
+}
+
 .box-input-cima {
     display: flex;
     flex-direction: row;

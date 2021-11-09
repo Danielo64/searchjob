@@ -36,8 +36,6 @@ app.post('/', async (req, resp) => {
             ds_vaga: descricao,
             ds_exigencia: exigencia,
             ds_beneficio: beneficio
-
-
         })
         resp.send(r);
     } catch (e) {
