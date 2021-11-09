@@ -6,7 +6,12 @@ baseURL: 'http://localhost:3030'
 export default class Api {
     // Login
 
-    async login(email, senha) {
+    async loginCandidato(email, senha) {
+        let r = await api.post('/login', { email, senha })
+        return r.data;
+    }
+
+    async loginEmpresa(email, senha) {
         let r = await api.post('/login', { email, senha })
         return r.data;
     }
