@@ -227,6 +227,21 @@ a:active {
     .ver-vagas-button { margin-left: 35.5em; }
     .selecione { margin-left: 22em; }
 }
+
+@media (min-width: 1366px) {
+    .selecione { margin-left: 22em; }
+    .ver-vagas-button { margin-left: 35em; }
+}
+
+@media (min-width: 1920px) {
+    .faixa1-inicio { background-repeat: no-repeat; background-size: 100% }
+    .frase-principal1-inicio { font-size: 45px; margin-top: 4.5em; } .frase-principal2-inicio { font-size: 45px; }
+    .qualVaga-inicio { font-size: 28px; }
+    .cargo-input input { width: 15em; font-size: 22px; }
+    .buscar-text { font-size: 22px; margin-top: 0.1em; } .buscar-button button { padding: 0.5em 3em 0.8em 3em; }
+    .selecione { margin-left: 35em; }
+    .ver-vagas-button { margin-left: 53em; }
+}
 `
 
 export { Container }

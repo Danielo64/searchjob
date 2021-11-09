@@ -45,17 +45,6 @@ app.post('/', async (req, resp) => {
     }
 })
 
-app.delete('/:id', async (req, resp) => {
-    try {
-        let { id } = req.params;
-
-        let r = await db.infod_omn_vaga.destroy({ where: { id_vaga: id } });
-        resp.sendStatus(200);
-    } catch (e) {
-        resp.send({ erro: e.toString() });
-    }
-})
-
 
 app.put('/:id', async (req, resp) => {
     try {
@@ -82,6 +71,17 @@ app.put('/:id', async (req, resp) => {
             }
         )
             resp.sendStatus(200);
+    } catch (e) {
+        resp.send({ erro: e.toString() });
+    }
+})
+
+app.delete('/:id', async (req, resp) => {
+    try {
+        let { id } = req.params;
+
+        let r = await db.infod_omn_vaga.destroy({ where: { id_vaga: id } });
+        resp.sendStatus(200);
     } catch (e) {
         resp.send({ erro: e.toString() });
     }

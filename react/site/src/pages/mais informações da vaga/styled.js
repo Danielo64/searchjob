@@ -85,12 +85,6 @@ const Container = styled.div`
     color: #E4A200;
 }
 
-u {
-    font-size: 15px;
-    font-weight: 800;
-    color: white;
-}
-
 .coluna-especial-item {
     font-size: 15px;
     font-weight: 600;
@@ -184,6 +178,14 @@ li {
     color: white;
 
     padding: 4px;
+}
+
+@media (min-width: 1920px) {
+    .coluna-nome-vaga-item { font-size: 24px; }
+    .coluna-salario-item { font-size: 24px } .coluna-salario-item b { font-size: 24px; }
+    .coluna-item { font-size: 24px; }
+    .coluna-especial-item { font-size: 24px; } .coluna-especial-item b { font-size: 24px; }
+    .numero-vagas_e_data-vaga-item { font-size: 24px; } .numero-vagas_e_data-vaga-item b { font-size: 24px; }
 }
 `
 

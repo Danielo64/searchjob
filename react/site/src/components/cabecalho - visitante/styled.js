@@ -165,6 +165,14 @@ const Container = styled.div`
     background-color: #e3e2e1;
     transition: 1s;
 }
+
+@media (min-width: 1920px) {
+    .procurar-button button { font-size: 22px; }
+    .publicar-button button { font-size: 22px; }
+    .criar-button button { font-size: 22px; }
+    .menu li { font-size: 22px; padding-left: 0.2em; padding-right: 0.2em; }
+    .entrar-button button { font-size: 22px; }
+}
 `
 
 export { Container }

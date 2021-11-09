@@ -144,12 +144,22 @@ a:active {
     color: white;
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1280px) {
     .corpo-cadastro { padding-bottom: 2.2em; }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1366px) {
     .cadastre-se { margin-bottom: 0em; }
+}
+
+@media (min-width: 1920px) {
+    .texto-login { font-size: 30px; }
+    .email-input input { font-size: 20px; }
+    .senha-input input { font-size: 20px; }
+    .button-entrar button { font-size: 25px; }
+    .nao-tem-conta { font-size: 20px; }
+    .cadastre-se { font-size: 20px; }
+    u { font-size: 20px; }
 }
 `
 

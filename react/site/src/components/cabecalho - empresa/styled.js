@@ -118,6 +118,13 @@ display: flex;
     background-color: #e3e2e1;
     transition: 1s;
 }
+
+@media (min-width: 1920px) {
+    .publicar-button button { font-size: 22px; }
+    .recrutamento-button button { font-size: 22px; }
+    .ola-nome { font-size: 22px; }
+    .sair-button button { font-size: 22px; }
+}
 `
 
 export { Container }

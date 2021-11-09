@@ -58,7 +58,7 @@ export default function Index() {
             <div class="right-box">
                 <div class="card-vaga1">
                     <div class="nome-vaga">Analista de Sistemas</div>
-                    <div class="nome-empresa"><u>NovaSoft</u></div>
+                    <div class="nome-empresa">NovaSoft</div>
                     <div class="descricao-vaga">Desenvolva soluções específicas em sistemas informatizados.</div>
                     <div class="box-salario-button">
                         <div class="salario-vaga">Salário: <b>5.116,00</b></div>
@@ -68,7 +68,7 @@ export default function Index() {
     
                 <div class="card-vaga">
                     <div class="nome-vaga">Especialista em Dados e Big Data</div>
-                    <div class="nome-empresa"><u>Symbio</u></div>
+                    <div class="nome-empresa">Symbio</div>
                     <div class="descricao-vaga">Faz a gestão e a análise de dados, a fim de assegurar eficiência e<br/>
                         rentabilidade para a empresa, além de propor ideias inovadoras<br/> 
                         para o negócio.</div>
@@ -80,7 +80,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Engenheiro de Software</div>
-                    <div class="nome-empresa"><u>Atona Techology</u></div>
+                    <div class="nome-empresa">Atona Techology</div>
                     <div class="descricao-vaga">Projete e guie o desenvolvimento de sistemas, aplicativos e programas.</div>
                     <div class="box-salario-button">
                         <div class="salario-vaga">Salário: <b>5.116,00</b></div>
@@ -90,7 +90,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa"><u>Teclero</u></div>
+                    <div class="nome-empresa">Teclero</div>
                     <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
                         e videogames.</div>
                     <div class="box-salario-button">
@@ -101,7 +101,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa"><u>Teclero</u></div>
+                    <div class="nome-empresa">Teclero</div>
                     <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
                         e videogames.</div>
                     <div class="box-salario-button">
@@ -112,7 +112,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa"><u>Teclero</u></div>
+                    <div class="nome-empresa">Teclero</div>
                     <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
                         e videogames.</div>
                     <div class="box-salario-button">
@@ -123,7 +123,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa"><u>Teclero</u></div>
+                    <div class="nome-empresa">Teclero</div>
                     <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
                         e videogames.</div>
                     <div class="box-salario-button">
@@ -134,7 +134,7 @@ export default function Index() {
 
                 <div class="card-vaga">
                     <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa"><u>Teclero</u></div>
+                    <div class="nome-empresa">Teclero</div>
                     <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
                         e videogames.</div>
                     <div class="box-salario-button">

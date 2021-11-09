@@ -516,6 +516,47 @@ const Container = styled.div`
     .right-box::-webkit-scrollbar-thumb { background: #00B4D8; border-radius: 10px; }
     .right-box::-webkit-scrollbar-thumb:hover { background: #049ebd; }
 }
+
+@media (max-width: 1440px) {
+    .right-box { overflow-y: auto; }
+    .buttons-box { margin-bottom: 1em; }
+    .right-box::-webkit-scrollbar { width: 20px; }
+    .right-box::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey; border-radius: 10px; background-color: #ADE8F4; }
+    .right-box::-webkit-scrollbar-thumb { background: #00B4D8; border-radius: 10px; }
+    .right-box::-webkit-scrollbar-thumb:hover { background: #049ebd; }
+}
+
+@media (min-width: 1920px) {
+    .left-and-right-box { justify-content: center; }
+    
+    .left-box { padding-right: 4em; }
+    .cardVaga-box { padding-right: 15em; }
+    
+    .right-box { overflow-y: auto; margin-left: 4em; }
+    .buttons-box { margin-bottom: 1em; }
+    .right-box::-webkit-scrollbar { width: 20px; }
+    .right-box::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey; border-radius: 10px; background-color: #ADE8F4; }
+    .right-box::-webkit-scrollbar-thumb { background: #00B4D8; border-radius: 10px; }
+    .right-box::-webkit-scrollbar-thumb:hover { background: #049ebd; }
+
+    .totalVagas { font-size: 20px; }
+    .adicionar-button button { font-size: 20px; }
+    .totalVagas-button-box { margin-left: 2em; }
+    .nomeVaga { font-size: 22px; }
+    .salario { font-size: 22px; } .salario b { font-size: 22px; }
+
+    .nomeeVaga { font-size: 20px; }
+    .salarioo { font-size: 20px; margin-left: 0.8em; }
+    .areaVaga { font-size: 20px; }
+    .jornada { font-size: 20px; margin-left: 0.8em; }
+    .contrato { font-size: 20px; }
+    .quantidade { font-size: 20px; margin-left: 0.8em; }
+    .descricao { font-size: 20px; }
+    .exigencia { font-size: 20px; }
+    .beneficio { font-size: 20px; }
+    .alterar-button button { font-size: 18px; }
+    .remover-button button { font-size: 18px; }
+}
 `
 
 export { Container }

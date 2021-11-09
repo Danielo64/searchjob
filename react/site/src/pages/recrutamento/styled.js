@@ -513,6 +513,27 @@ option {
     .left-box { height: 48em; overflow-y: auto; }
     .right-box { height: 48em; }
 }
+
+@media (min-width: 1920px) {
+    .left-and-right-box { justify-content: center; }
+
+    .left-box { padding-right: 8em; }
+    .select-vaga select { font-size: 18px; } option { font-size: 18px; }
+    .totalCandidatos { font-size: 20px; }
+    .foto-left-box img { width: 80px; height: 80px; }
+    .nomeCandidato { font-size: 20px; }
+    .localidade { font-size: 20px; }
+
+    .objetivo { font-size: 21px; }
+    .formacao { font-size: 21px; }
+    .experiencia { font-size: 21px; }
+    .idioma { font-size: 21px; }
+    .atividade { font-size: 21px; }
+
+    .buttons-box { margin-right: 0.6em; }
+    .enviar-button button { font-size: 17px; }
+    .remover-button button { font-size: 17px; }
+}
 `
 
 export { Container }

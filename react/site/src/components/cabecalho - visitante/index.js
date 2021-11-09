@@ -21,8 +21,8 @@ export default function Index() {
                     <ul class="menu">
                                 <li>Cadastre-se
                                    <ul>
-                                        <li> <Link to="/cadastro-candidato"> Como Candidato </Link> </li>
-                                        <li> <Link to="cadastro-empresa"> Como Empresa </Link> </li>
+                                        <li> <Link to="/cadastro-candidato"> Candidato </Link> </li>
+                                        <li> <Link to="cadastro-empresa"> Empresa </Link> </li>
                                      </ul>
                               </li>
                       </ul>

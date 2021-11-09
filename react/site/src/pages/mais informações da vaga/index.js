@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Cabecalho from '../../components/cabecalho - candidato'
 
 import { Container } from './styled'
@@ -7,7 +9,7 @@ export default function Index() {
         <Container>
             <Cabecalho />
             <div class="voltar">
-                <a href="../tela de procura/index.html"><div class="seta"><img src="assets/botao-voltar.png" alt=""/></div></a>
+                <Link to="/procura"> <div class="seta"><img src="assets/botao-voltar.png" alt=""/></div> </Link>
                 <div class="voltar-texto">Voltar para Vagas</div>
             </div>
 
@@ -15,7 +17,7 @@ export default function Index() {
                 <div class="coluna-box-esquerda">
                     <div class="coluna-nome-vaga-item">Engenheiro de Software</div>
                     <div class="coluna-salario-item">Salário: <b>6.306,00</b></div>
-                    <div class="coluna-item"><u>Atona Techonology</u></div>
+                    <div class="coluna-item">Atona Techonology</div>
                 </div>
 
                 <div class="coluna-box-meio">

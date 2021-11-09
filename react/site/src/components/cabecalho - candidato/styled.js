@@ -132,6 +132,13 @@ const Container = styled.div`
     background-color: #e3e2e1;
     transition: 1s;
 }
+
+@media (min-width: 1920px) {
+    .procurar-button button { font-size: 22px; }
+    .criar-button button { font-size: 22px; }
+    .ola-nome { font-size: 22px; }
+    .sair-button button { font-size: 22px; }
+}
 `
 
 export { Container }

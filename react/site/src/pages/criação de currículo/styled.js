@@ -44,16 +44,6 @@ const Container = styled.div`
     height: 160px;
 }
 
-.alterarImagem u {
-    margin-left: 1.8em;
-    
-    font-size: 15px;
-    font-weight: 700;
-    color: white;
-
-    cursor: pointer;
-}
-
 .right-box-candidato {
     display: flex;
     flex-direction: column;
@@ -315,7 +305,7 @@ const Container = styled.div`
     transition: 1s;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
     .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { width: 54em; height: 7em; }
     .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { width: 54em; height: 7em; }
     .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { width: 54em; height: 7em; }
@@ -323,15 +313,38 @@ const Container = styled.div`
     .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { width: 54em; height: 6em; }
 }
 
-@media (min-width: 1300px) {
-    .objetivo-textarea { margin-left: 3em; }
-    .formacao-academica-textarea { margin-left: 3em; }
-    .experiencia-profissional-textarea { margin-left: 3em; }
-    .idiomas-textarea { margin-left: 3em; }
-    .atividades-complementares-textarea { margin-left: 3em; }
+@media (min-width: 1366px) {
+    .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { padding-right: 60em; }
+    .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { padding-right: 60em; }
+    .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { padding-right: 60em; }
+    .idiomas-textarea { margin-left: 3em; } .idiomas-textarea textarea { padding-right: 60em; }
+    .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { padding-right: 60em; }
+}
 
-    .line-left2 { margin-top: 0.3em; } .line-right2 { margin-top: 0.3em; }
-    .line-left1 { margin-top: 0.3em; } .line-right1 { margin-top: 0.3em; }
+@media (min-width: 1440px) {
+    .objetivo-textarea textarea { width: 66em; }
+    .formacao-academica-textarea textarea { width: 66em; }
+    .experiencia-profissional-textarea textarea { width: 66em; }
+    .idiomas-textarea textarea { width: 66em; }
+    .atividades-complementares-textarea textarea { width: 66em; }
+}
+
+@media (min-width: 1920px) {
+    .imagemPerfil img { width: 200px; height: 260px; }
+    .nome-candidato { font-size: 22px; }
+    .dataNascimento-candidato { font-size: 22px; }
+    .civil-candidato { font-size: 22px; }
+    .localidade-candidato { font-size: 22px; }
+    .nacionalidade-candidato { font-size: 22px; }
+    .email-candidato { font-size: 22px; }
+    .telefone-candidato { font-size: 22px; }
+    
+    .objetivo-textarea textarea { width: 102em; }
+    .formacao-academica-textarea textarea { width: 102em; }
+    .experiencia-profissional-textarea textarea { width: 102em; }
+    .idiomas-textarea textarea { width: 102em; }
+    .atividades-complementares-textarea textarea { width: 102em; }
+    .salvar-button button { font-size: 20px; }
 }
 `
 

@@ -292,6 +292,10 @@ option {
 
     cursor: pointer;
 }
+
+@media (min-width: 1920px) {
+    .cabecalho { background-size: 100%; }
+}
 `
 
 export { Container }
