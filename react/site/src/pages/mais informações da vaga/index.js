@@ -1,8 +1,35 @@
+import { confirmAlert } from 'react-confirm-alert'
+import 'react-confirm-alert/src/react-confirm-alert.css';
+
 import { Link } from 'react-router-dom'
 
 import Cabecalho from '../../components/cabecalho - candidato'
 
 import { Container } from './styled'
+
+function candidatar(id) {
+    confirmAlert({
+        title: 'Dados do Candidato',
+        message: `Tem certeza que deseja remover o produto ${id}?`,
+        buttons: [
+          {
+            label: 'Enviar',
+            onClick: async() => {
+                let b = await api.candidatar(id);
+                if (b.erro) 
+                    toast.error(`${b.erro}`);
+                else {
+                    toast.dark('Currículo enviado!');
+                    listar();
+                }
+            }
+          },
+          {
+            label: 'Não'
+          }
+        ]
+    });   
+  }
 
 export default function Index() {
     return (

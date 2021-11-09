@@ -20,3 +20,5 @@ app.post('/', async (req, resp) => {
 
     resp.sendStatus(200);
 });
+
+export default app;
