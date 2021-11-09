@@ -1,4 +1,9 @@
-import { useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import LoadingBar from 'react-top-loading-bar'
+
+import { useState, useRef } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import { Link } from 'react-router-dom'
@@ -14,11 +19,14 @@ export default function Index() {
 
     const navigation = useHistory();
 
+    const loading = useRef(null);
+
     const logarCa = async () => {
         let r = await api.loginCandidato(email, senha);
         if (r.erro) {
-            alert(`${r.erro}`)
+            toast.error(r.erro);
         } else {
+            toast.dark('💕 Logado com sucesso!');
             navigation.push('/')
         }
     }
@@ -34,6 +42,8 @@ export default function Index() {
     
     return (
         <Container>
+            <ToastContainer />
+            <LoadingBar color="#119FDC" ref={loading} />
             <div class="cabecalho">
             <div class="imagem-cabecalho"> 
                 
