@@ -21,21 +21,12 @@ export default function Index() {
 
     const loading = useRef(null);
 
-    const logarCa = async () => {
-        let r = await api.loginCandidato(email, senha);
+    const logar = async () => {
+        let r = await api.login(email, senha);
         if (r.erro) {
             toast.error(r.erro);
         } else {
             toast.dark('💕 Logado com sucesso!');
-            navigation.push('/')
-        }
-    }
-
-    const logarEmp = async () => {
-        let r = await api.loginEmpresa(email, senha);
-        if (r.erro) {
-            alert(`${r.erro}`)
-        } else {
             navigation.push('/')
         }
     }
@@ -60,7 +51,7 @@ export default function Index() {
             <div class="email-input" value={email} onChange={e => setEmail(e.target.value)}><input type="email" placeholder="Email"/></div>
             <div class="senha-input" value={senha} onChange={e => setSenha(e.target.value)}><input placeholder="Senha"/></div>
 
-            <div class="button-entrar" onClick={logarCa && logarEmp}> <Link to="/"> <button>Entrar</button> </Link> </div>
+            <div class="button-entrar" onClick={logar}> <Link to="/"> <button>Entrar</button> </Link> </div>
 
             <div class="nao-tem-conta"> Não tem uma Conta? </div>
             <div class="cadastre-se"> Cadastre-se como <Link to="/cadastro-candidato"> <u>Candidato</u> </Link> ou <Link to="cadastro-empresa"> <u>Empresa</u> </Link> </div>

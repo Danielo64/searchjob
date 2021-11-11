@@ -20,12 +20,7 @@ export default class Api {
 
     // Login
 
-    async loginCandidato(email, senha) {
-        let r = await api.post('/login', { email, senha })
-        return r.data;
-    }
-
-    async loginEmpresa(email, senha) {
+    async login(email, senha) {
         let r = await api.post('/login', { email, senha })
         return r.data;
     }
