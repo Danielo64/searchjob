@@ -1,8 +1,19 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Container } from './styled'
 
 export default function Index() {
+    const [nome, setNome] = useState('');
+    const [salario, setSalario] = useState('');
+    const [area, setArea] = useState('');
+    const [jornada, setJornada] = useState('');
+    const [contrato, setContrato] = useState('');
+    const [quantidade, setQuantidade] = useState('');
+    const [descricao, setDescricao] = useState('');
+    const [exigencia, setExigencia] = useState('');
+    const [beneficio, setBeneficio] = useState('');
+    
     return (
         <Container>
             <div class="voltar">
@@ -47,25 +58,25 @@ export default function Index() {
                 <div class="box-input1">
                     <div class="nomeVagaInput">
                         <div class="nomeeVaga">Nome da vaga</div>
-                        <div class="vaga-input"><input/></div>
+                        <div class="vaga-input"><input value={nome} onChange={e => setNome(e.target.value)}/></div>
                     </div>
 
                     <div class="salarioInput">
                         <div class="salarioo">Salário</div>
-                        <div class="salario-input"><input/></div>
+                        <div class="salario-input"><input value={salario} onChange={e => setSalario(e.target.value)}/></div>
                     </div>
                 </div>
 
                 <div class="box-input-select">
                     <div class="areaVagaInput">
                         <div class="areaVaga">Área da vaga</div>
-                        <div class="area-input"><input/></div>
+                        <div class="area-input"><input value={area} onChange={e => setArea(e.target.value)}/></div>
                     </div>
 
                     <div class="jornadaSelect">
                         <div class="jornada">Jornada</div>
                         <div class="select-jornada">
-                            <select id="jornada-select" name="jornada-select">
+                            <select id="jornada-select" name="jornada-select" value={jornada} onChange={e => setJornada(e.target.value)}>
                                 <option value="selection">Selecione uma opção</option>
                                 <option value="5x2">5x2</option>
                                 <option value="12x36">12x36</option>
@@ -79,7 +90,7 @@ export default function Index() {
                     <div class="contratoSelect">
                         <div class="contrato">Tipo de contrato</div>
                         <div class="select-contrato">
-                            <select id="contrato-select" name="contrato-select">
+                            <select id="contrato-select" name="contrato-select" value={contrato} onChange={e => setContrato(e.target.value)}>
                                 <option value="selection">Selecione uma opção</option>
                                 <option value="jovem">Jovem aprendiz</option>
                                 <option value="estagio">Estágio</option>
@@ -90,13 +101,13 @@ export default function Index() {
 
                     <div class="quantidadeVagasInput">
                         <div class="quantidade">Quantidade de vagas</div>
-                        <div class="quantidade-input"><input/></div>
+                        <div class="quantidade-input"><input value={quantidade} onChange={e => setQuantidade(e.target.value)}/></div>
                     </div>
                 </div>
 
                 <div class="descricaoVagaTextarea">
                     <div class="descricao">Descrição da vaga</div>
-                    <div class="descricao-textarea"><textarea></textarea></div>
+                    <div class="descricao-textarea"><textarea value={descricao} onChange={e => setDescricao(e.target.value)}></textarea></div>
                 </div>
 
                 <div class="box-line">
@@ -107,12 +118,12 @@ export default function Index() {
 
                 <div class="exigenciaTextarea">
                     <div class="exigencia">Exigências</div>
-                    <div class="exigencia-textarea"><textarea></textarea></div>
+                    <div class="exigencia-textarea"><textarea value={exigencia} onChange={e => setExigencia(e.target.value)}></textarea></div>
                 </div>
 
                 <div class="beneficioTextarea">
                     <div class="beneficio">Benefícios adicionais</div>
-                    <div class="beneficio-textarea"><textarea></textarea></div>
+                    <div class="beneficio-textarea"><textarea value={beneficio} onChange={e => setBeneficio(e.target.value)}></textarea></div>
                 </div>
 
                 <div class="buttons-box">

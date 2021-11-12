@@ -1,10 +1,28 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import LoadingBar from 'react-top-loading-bar'
+
 import { Link } from 'react-router-dom'
+
+import { useState, useRef } from 'react'
+import { useHistory } from 'react-router-dom'
 
 import { Container } from './styled'
 
+import Api from '../../services/api'
+const api = new Api();
+
 export default function Index() {
+    
+    
+    const loading = useRef(null);
+    const navigation = useHistory();
+    
     return (
         <Container>
+            <ToastContainer />
+            <LoadingBar color="#119FDC" ref={loading} />
             <div class="cabecalho">
             <div class="imagem-cabecalho"> 
                 <div class="logo">
@@ -38,11 +56,6 @@ export default function Index() {
             </div>
                 
             <div class="adicionar-input"><input type="add" placeholder="Link da imagem"/> </div>
-
-            <div class="termos-box">
-                <div class="input-checkbox"><input type="checkbox"/></div>
-                <div class="termos">Li e aceito os Termos e Condições da SearchJob.</div>
-            </div>
 
             <div class="button-cadastrar"> <Link to="/"> <button>Cadastrar-se</button> </Link> </div>
             

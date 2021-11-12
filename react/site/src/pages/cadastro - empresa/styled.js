@@ -215,45 +215,6 @@ option {
     color: #000;
 }
 
-.termos-box {
-    display: flex;
-
-    margin-top: 0.5em;
-    margin-right: 15em;
-}
-
-.termos {
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-
-    margin-top: 0.3em;
-}
-
-.avisos-box {
-    display: flex;
-
-    margin-top: 0.2em;
-    margin-right: 4.8em;
-}
-
-.avisos {
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-
-    margin-top: 0.3em;
-}
-
-.input-checkbox {
-    margin-right: 0.1em;
-}
-
-.input-checkbox input {
-    width: 20px;
-    height: 20px;
-}
-
 .button-cadastrar {
     margin-top: 1em;
 }

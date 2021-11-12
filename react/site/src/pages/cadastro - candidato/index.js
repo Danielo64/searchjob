@@ -17,11 +17,11 @@ export default function Index() {
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [nascimento, setNasci] = useState('');
     const [nacionalidade, setNacio] = useState('');
     const [civil, setCivil] = useState('');
     const [localidade, setLocal] = useState('');
     const [telefone, setTelefone] = useState('');
-    const [nascimento, setNasci] = useState('');
     const [sexo, setSexo] = useState('');
     const [imagem, setImagem] = useState('');
 
@@ -31,12 +31,12 @@ export default function Index() {
     async function cadastrar() {
         let r = await api.inserirCandidato(nome, email, senha, sexo, imagem, nacionalidade, telefone, nascimento, civil, localidade);
 
-        if (r.erro)
+        if (r.erro) 
                 toast.error(r.erro);
-            else
+        else 
                 toast.dark('💕 Cadastrado com sucesso!');
-                navigation.push('/')
-    }
+                navigation.push('/');
+    }      
 
     return (
         <Container>
@@ -56,33 +56,28 @@ export default function Index() {
                 <div class="voceEEmpresa">Você é uma empresa? <Link to="/cadastro-empresa"> <u>Cadastre-se aqui</u> </Link></div>
 
                 <div class="nome-input"><input type="name" placeholder="Nome do candidato" value={nome} onChange={e => setNome(e.target.value)}/> </div>
-                <div class="email-input"><input type="email" placeholder="Email" value={email}/> </div>
-                <div class="senha-input"><input type="password" placeholder="Senha" value={senha}/> </div>
-                <div class="nascimento-input"><input type="birth" placeholder="Data de nascimento" value={nascimento} /></div>
+                <div class="email-input"><input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)}/> </div>
+                <div class="senha-input"><input type="password" placeholder="Senha" value={senha} onChange={e => setSenha(e.target.value)}/> </div>
+                <div class="nascimento-input"><input type="birth" placeholder="Data de nascimento" value={nascimento} onChange={e => setNasci(e.target.value)}/></div>
                 
                 <div class="box-input-cima">
-                    <div class="nacionalidade-input"><input type="nationality" placeholder="Nacionalidade" value={nacionalidade}/> </div>
-                    <div class="localidade-input"><input type="location" placeholder="Localidade" value={localidade}/> </div>
+                    <div class="nacionalidade-input"><input type="nationality" placeholder="Nacionalidade" value={nacionalidade} onChange={e => setNacio(e.target.value)}/> </div>
+                    <div class="localidade-input"><input type="location" placeholder="Localidade" value={localidade} onChange={e => setLocal(e.target.value)}/> </div>
                 </div>
 
                 <div class="box-input-baixo">
-                    <div class="civil-input"><input type="civil" placeholder="Estado civil" value={civil}/> </div>
-                    <div class="telefone-input"><input type="phone" placeholder="Telefone" value={telefone}/> </div>
+                    <div class="civil-input"><input type="civil" placeholder="Estado civil" value={civil} onChange={e => setCivil(e.target.value)}/> </div>
+                    <div class="telefone-input"><input type="phone" placeholder="Telefone" value={telefone} onChange={e => setTelefone(e.target.value)}/> </div>
                 </div>
 
-                <div class="adicionar-input"><input type="add" placeholder="Link da imagem" value={imagem}/> </div>
+                <div class="adicionar-input"><input type="add" placeholder="Link da imagem" value={imagem} onChange={e => setImagem(e.target.value)}/> </div>
                 
                 <div class="genero">
                     <div class="sexo">Sexo:</div>
-                    <div class="input-radio"><input type="radio" name="genre" value={sexo}/></div> 
+                    <div class="input-radio"><input type="radio" name="genre" value={sexo} onChange={e => setSexo(e.target.value)}/></div> 
                     <div class="masc">Masculino</div>
-                    <div class="input-radio"><input type="radio" name="genre" value={sexo}/></div> 
+                    <div class="input-radio"><input type="radio" name="genre" value={sexo} onChange={e => setSexo(e.target.value)}/></div> 
                     <div class="fem">Feminino</div>
-                </div>
-
-                <div class="termos-box">
-                    <div class="input-checkbox"><input type="checkbox"/></div>
-                    <div class="termos">Li e aceito os Termos e Condições da SearchJob.</div>
                 </div>
 
                 <div class="button-cadastrar"><Link to="/"> <button onClick={cadastrar} >Cadastrar-se</button> </Link></div>

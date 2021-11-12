@@ -5,6 +5,8 @@ import Cabecalho from '../../components/cabecalho - candidato'
 import { Container } from './styled'
 
 export default function Index() {
+    const [vagas, setVagas]
+    
     return (
         <Container>
             <Cabecalho />
@@ -26,9 +28,9 @@ export default function Index() {
                         <option value="agro">Agronegócio</option>
                         <option value="cozinha">Cozinha</option>
                         <option value="educacao">Educação</option>
+                        <option value="engenharia">Engenharia</option>
                         <option value="financeiro">Financeiro</option>
                         <option value="juridico">Jurídico</option>
-                        <option value="engenharia">Engenharia</option>
                         <option value="saude">Saúde</option>
                         <option value="tecnologia">Tecnologia</option>
                     </select>
@@ -57,90 +59,15 @@ export default function Index() {
     
             <div class="right-box">
                 <div class="card-vaga1">
-                    <div class="nome-vaga">Analista de Sistemas</div>
-                    <div class="nome-empresa">NovaSoft</div>
-                    <div class="descricao-vaga">Desenvolva soluções específicas em sistemas informatizados.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-    
-                <div class="card-vaga">
-                    <div class="nome-vaga">Especialista em Dados e Big Data</div>
-                    <div class="nome-empresa">Symbio</div>
-                    <div class="descricao-vaga">Faz a gestão e a análise de dados, a fim de assegurar eficiência e<br/>
-                        rentabilidade para a empresa, além de propor ideias inovadoras<br/> 
-                        para o negócio.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Engenheiro de Software</div>
-                    <div class="nome-empresa">Atona Techology</div>
-                    <div class="descricao-vaga">Projete e guie o desenvolvimento de sistemas, aplicativos e programas.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"> <Link to="/informacoes"> <button>Mais informações</button> </Link> </div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa">Teclero</div>
-                    <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
-                        e videogames.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa">Teclero</div>
-                    <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
-                        e videogames.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa">Teclero</div>
-                    <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
-                        e videogames.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa">Teclero</div>
-                    <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
-                        e videogames.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
-                </div>
-
-                <div class="card-vaga">
-                    <div class="nome-vaga">Programador de Jogos Digitais</div>
-                    <div class="nome-empresa">Teclero</div>
-                    <div class="descricao-vaga">Trabalhe e desenvolve jogos para computador, dispositivos mobile<br/> 
-                        e videogames.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
+                    {vagas.map((item, i) => 
+                        <div class="nome-vaga">Analista de Sistemas</div>
+                        <div class="nome-empresa">NovaSoft</div>
+                        <div class="descricao-vaga">Desenvolva soluções específicas em sistemas informatizados.</div>
+                        <div class="box-salario-button">
+                            <div class="salario-vaga">Salário: <b>5.116,00</b></div>
+                            <div class="maisInformacoes-button"><button>Mais informações</button></div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
