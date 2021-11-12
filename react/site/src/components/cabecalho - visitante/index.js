@@ -30,7 +30,16 @@ export default function Index() {
 
                 <div class="line"><img src="assets/line-vertical.svg" alt=""/></div>
 
-                <div class="entrar-button"> <Link to="/login"> <button>Entrar</button> </Link> </div>
+                <nav>
+                    <ul class="menu">
+                                <li>Login
+                                   <ul>
+                                        <li> <Link to="/login-candidato"> Candidato </Link> </li>
+                                        <li> <Link to="login-empresa"> Empresa </Link> </li>
+                                     </ul>
+                              </li>
+                      </ul>
+                </nav>
             </div>
         </Container>
     )
