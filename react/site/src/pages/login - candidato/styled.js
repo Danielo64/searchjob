@@ -27,10 +27,6 @@ const Container = styled.div`
     margin-left: 1.5em;
 }
 
-.logo img {
-    cursor: pointer;
-}
-
 .texto-login {
     color: white;
     text-align: center;
@@ -50,6 +46,22 @@ const Container = styled.div`
     align-items: center;
 }
 
+.loginEmpresa {
+    margin-top: 1.5em;
+
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+}
+
+.loginEmpresa u {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+}
+
 input {
     padding-left: 0.7em;
     width: 39em;
@@ -57,7 +69,7 @@ input {
 }
 
 .email-input {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .email-input input {

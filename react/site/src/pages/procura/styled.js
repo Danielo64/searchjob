@@ -16,6 +16,9 @@ const Container = styled.div`
     flex-direction: column;
     
     background-color: #0096C7;
+
+    width: 28em;
+    height: 33.1em;
     padding-right: 5em;
 }
 
@@ -98,46 +101,6 @@ const Container = styled.div`
 
     margin-top: 0.5em;
     margin-left: 2.5em;
-}
-
-.select-area {
-    margin-top: 0.2em;
-    margin-left: 2.5em;
-}
-
-.select-area select {
-    border: none;
-
-    width: 19.8em;
-    height: 1.9em;
-    padding-left: 0.5em;
-
-    font-size: 17px;
-    font-weight: 700;
-    color: #000;
-}
-
-.select-salario {
-    margin-top: 0.2em;
-    margin-left: 2.5em;
-}
-
-.select-salario select {
-    border: none;
-
-    width: 19.8em;
-    height: 1.9em;
-    padding-left: 0.5em;
-
-    font-size: 17px;
-    font-weight: 700;
-    color: #000;
-}
-
-option {
-    font-size: 17px;
-    font-weight: 700;
-    color: #000;
 }
 
 .salario-text {

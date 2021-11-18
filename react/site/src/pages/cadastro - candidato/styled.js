@@ -23,10 +23,6 @@ const Container = styled.div`
     margin-left: 1.5em;
 }
 
-.logo img {
-    cursor: pointer;
-}
-
 .descricao {
     color: white;
     text-align: center;
@@ -114,8 +110,15 @@ const Container = styled.div`
     cursor: text;
 }
 
-.nascimento-input {
+.box-input-cima {
+    display: flex;
+    flex-direction: row;
+
     margin-top: 0.8em;
+}
+
+.nascimento-input { 
+    margin-right: 0.5em;
 }
 
 .nascimento-input input {
@@ -125,13 +128,26 @@ const Container = styled.div`
     border: 1px solid black;
 
     padding-left: 0.7em;
-    width: 39em;
+    width: 19.3em;
     height: 2.5em;
 
     cursor: text;
 }
 
-.box-input-cima {
+.sexo-input input {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 0.7em;
+    width: 19.2em;
+    height: 2.5em;
+
+    cursor: text;
+}
+
+.box-input-meio {
     display: flex;
     flex-direction: row;
 
@@ -226,42 +242,6 @@ const Container = styled.div`
     font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
-}
-
-.genero {
-    display: flex;
-    flex-direction: row;
-
-    margin-top: 0.7em;
-
-    margin-right: 21em;
-}
-
-.sexo {
-    font-size: 17px;
-    font-weight: 600;
-    color: white;
-    
-    margin-right: 0.1em;
-}
-
-.input-radio input {
-    margin-top: 0.4em;
-    margin-right: 0.4em;
-}
-
-.masc {
-    font-size: 17px;
-    font-weight: 600;
-    color: white;
-
-    margin-right: 0.5em;
-}
-
-.fem {
-    font-size: 17px;
-    font-weight: 600;
-    color: white;
 }
 
 .button-cadastrar {

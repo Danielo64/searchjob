@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 
 import { Container } from './styled'
-import CabecalhoVisitante from '../../components/cabecalho - visitante'
+import Cabecalho from '../../components/cabecalho'
 
 export default function Index() {
     return (
         <Container>
-            <CabecalhoVisitante />
+            <Cabecalho />
             <div class="faixa1-inicio">
             <div class="frase-principal1-inicio">Candidate-se aqui na SearchJob, o site mais procurado</div>
             <div class="frase-principal2-inicio">pelas melhores empresas.</div>

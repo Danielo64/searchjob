@@ -1,10 +1,10 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Inicio from './pages/tela inicial';
 import CadastroCandidato from './pages/cadastro - candidato';
 import CadastroEmpresa from './pages/cadastro - empresa';
-import LoginCa from './pages/login - candidato';
-import LoginEmp from './pages/login - empresa';
+import LoginCandidato from './pages/login - candidato';
+import LoginEmpresa from './pages/login - empresa';
+import Inicio from './pages/tela inicial';
 import Procura from './pages/procura';
 import MaisInformacoes from './pages/mais informações da vaga';
 import Curriculo from './pages/criação de currículo';
@@ -15,11 +15,11 @@ export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-            <Route path="/" exact={true} component={Inicio} />
-            <Route path="/cadastro-candidato" component={CadastroCandidato} />
+            <Route path="/" exact={true} component={CadastroCandidato} />
             <Route path="/cadastro-empresa" component={CadastroEmpresa} />
-            <Route path="/login-candidato" component={LoginCa} />
-            <Route path="/login-empresa" component={LoginEmp} />
+            <Route path="/login-candidato" component={LoginCandidato} />
+            <Route path="/login-empresa" component={LoginEmpresa} />
+            <Route path="/inicio" component={Inicio} />
             <Route path="/procura" component={Procura} />
             <Route path="/informacoes" component={MaisInformacoes} />
             <Route path="/criacao-curriculo" component={Curriculo} />

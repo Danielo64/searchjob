@@ -15,24 +15,24 @@ app.get('/', async (req, resp) => {
 
 app.post('/', async (req, resp) => {
     try {
-        let { nome, email, senha, sexo, imagem, nacionalidade, telefone, nascimento, civil, localidade } = req.body;
+        let { nome, email, senha, nascimento, sexo, nacionalidade, localidade, civil, telefone, imagem } = req.body;
 
         let r = await db.infod_omn_candidato.create (
         {
             nm_candidato: nome,
             ds_email: email,
             ds_senha: senha,
-            ds_sexo: sexo,
-            img_candidato: imagem,
-            ds_nacionalidade: nacionalidade,
-            ds_telefone: telefone,
             dt_nascimento: nascimento,
+            ds_sexo: sexo,
+            ds_nacionalidade: nacionalidade,
+            ds_localidade: localidade,
             ds_estado_civil: civil,
-            ds_localidade: localidade
+            ds_telefone: telefone,
+            img_candidato: imagem
         })
         resp.send(r);
     } catch (e) {
-        resp.send({ erro: e.toString() })
+        resp.send({ erro: 'Ocorreu um erro!' })
     }
 })
 

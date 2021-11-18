@@ -16,7 +16,7 @@ app.post('/', async (req, resp) => {
         });
     
     if (r = null)
-        return resp.send({ erro: 'Credenciais inválidas' });
+        return resp.send({ erro: 'Ocorreu um erro' });
     
     resp.sendStatus(200);
 })

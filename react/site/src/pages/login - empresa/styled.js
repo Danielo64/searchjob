@@ -11,7 +11,7 @@ const Container = styled.div`
     min-height: 100vh;
 
 .cabecalho {
-    background-image: url(assets/imagem-login.png);
+    background-image: url(assets/imagem-loginempresa.png);
     background-repeat: no-repeat;
 
     display: flex;
@@ -25,10 +25,6 @@ const Container = styled.div`
 .logo {
     text-align: center;
     margin-left: 1.5em;
-}
-
-.logo img {
-    cursor: pointer;
 }
 
 .texto-login {
@@ -50,6 +46,22 @@ const Container = styled.div`
     align-items: center;
 }
 
+.loginCandidato {
+    margin-top: 1.5em;
+
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+}
+
+.loginCandidato u {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+}
+
 input {
     padding-left: 0.7em;
     width: 39em;
@@ -57,7 +69,7 @@ input {
 }
 
 .email-input {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .email-input input {

@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 
-import Cabecalho from '../../components/cabecalho - candidato'
+import CabecalhoLogado from '../../components/cabecalho'
 
 import { Container } from './styled'
 
 export default function Index() {
     return (
         <Container>
-            <Cabecalho />
+            <CabecalhoLogado />
             <div class="voltar">
                 <Link to="/procura"> <div class="seta"><img src="assets/botao-voltar.png" alt=""/></div> </Link>
                 <div class="voltar-texto">Voltar para Vagas</div>

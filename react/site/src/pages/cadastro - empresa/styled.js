@@ -23,10 +23,6 @@ const Container = styled.div`
     margin-left: 1.5em;
 }
 
-.logo img {
-    cursor: pointer;
-}
-
 .descricao {
     color: white;
     text-align: center;
@@ -175,6 +171,19 @@ const Container = styled.div`
     cursor: text;
 }
 
+.porte-input input {
+    font-size: 15px;
+    font-weight: 600;
+    color: #A39C9C;
+    border: 1px solid black;
+
+    padding-left: 0.7em;
+    width: 19.2em;
+    height: 2.5em;
+
+    cursor: text;
+}
+
 .adicionar-input {
     margin-top: 0.8em;
 }
@@ -196,23 +205,6 @@ const Container = styled.div`
     font-size: 15px;
     font-weight: 600;
     color: #A39C9C;
-}
-
-select {
-    font-size: 15px;
-    font-weight: 600;
-    color: #000;
-    border: 1px solid black;
-
-    width: 19.2em;
-    height: 2.5em;
-    padding-left: 0.7em;
-}
-
-option {
-    font-size: 15px;
-    font-weight: 600;
-    color: #000;
 }
 
 .button-cadastrar {

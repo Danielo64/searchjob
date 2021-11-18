@@ -16,26 +16,9 @@ app.post('/', async (req, resp) => {
         });
 
     if (r == null)
-        return resp.send({ erro: 'Credenciais inválidas' });
+        return resp.send({ erro: 'Ocorreu um erro' });
 
     resp.sendStatus(200);
 });
-
-app.post('/', async (req, resp) => {
-    let loginEmpresa = req.body;
-
-    let r = await db.infod_omn_empresa.findOne(
-        {
-            where: {
-                ds_email: loginEmpresa.email,
-                ds_senha: loginEmpresa.senha
-            }
-        });
-    
-    if (r = null)
-        return resp.send({ erro: 'Credenciais inválidas' });
-    
-    resp.sendStatus(200);
-})
 
 export default app;

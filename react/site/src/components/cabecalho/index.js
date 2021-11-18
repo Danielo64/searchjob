@@ -6,19 +6,23 @@ export default function Index() {
     return (
         <Container>
             <div class="logo">  
-              <Link to="/"> <img src="assets/searchjob-logo-pequena.png" alt=""/> </Link>
+              <Link to="/inicio"> <img src="assets/searchjob-logo-pequena.png" alt=""/> </Link>
             </div>
 
             <div class="procurar-button"> <Link to="/procura"> <button>Procurar Vagas</button> </Link> </div>
+
+            <div className="publicar-button"> <Link to="/criacao-vaga"> <button>Publicar Vagas</button> </Link> </div>
+
+            <div className="recrutamento-button"> <Link to="/recrutamento"> <button>Recrutamento</button> </Link> </div>
 
             <div class="criar-button"> <Link to="/criacao-curriculo"> <button>Criar Currículo</button> </Link> </div>
 
             <div class="image-button-line">
                 <div class="user-image"> 
-                    <img src="assets/joana-image.jpg" alt="" />
+                    <img src="assets/semfoto.jpg" alt="" />
                 </div>
 
-                <div class="ola-nome">Olá, Joana da Silva</div>
+                <div class="ola-nome">Olá, usuário</div>
 
                 <div class="line"><img src="assets/line-vertical.svg" alt="" /></div>
 
