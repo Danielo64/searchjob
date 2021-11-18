@@ -262,6 +262,10 @@ const Container = styled.div`
     transition: 1s;
 }
 
+@media (min-width: 1280px) {
+    .left-box { width: 28em; height: 49.3em; }
+}
+
 @media (min-width: 1920px) {
     .cargo-text { font-size: 20px; margin-left: 1.9em; }
     .cargo-input input { width: 25.4em; height: 2.5em; font-size: 18px; }

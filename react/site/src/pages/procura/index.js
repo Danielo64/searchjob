@@ -1,8 +1,24 @@
+import { useState, useEffect } from 'react'
 import CabecalhoLogado from '../../components/cabecalho'
 
 import { Container } from './styled'
 
+import Api from '../../services/api';
+const api = new Api();
+
 export default function Index() {
+    const [vagas, setVagas] = useState([]);
+
+    async function listar() {
+        let r = await api.listarVaga();
+        setVagas(r);
+    }
+
+    // função chamada 1x quando a tela abre
+    useEffect(() => {
+        listar();
+    }, [])
+    
     return (
         <Container>
             <CabecalhoLogado />
@@ -32,13 +48,17 @@ export default function Index() {
     
             <div class="right-box">
                 <div class="card-vaga1">
-                    <div class="nome-vaga">Analista de Sistemas</div>
-                    <div class="nome-empresa">NovaSoft</div>
-                    <div class="descricao-vaga">Desenvolva soluções específicas em sistemas informatizados.</div>
-                    <div class="box-salario-button">
-                        <div class="salario-vaga">Salário: <b>5.116,00</b></div>
-                        <div class="maisInformacoes-button"><button>Mais informações</button></div>
-                    </div>
+                    {vagas.map((item) => 
+                        <div> 
+                            <div class="nome-vaga"> {item.nm_vaga} </div>
+                            <div class="nome-empresa">{item.nm_empresa}</div>
+                            <div class="descricao-vaga"> {item.ds_vaga} </div>
+                            <div class="box-salario-button">
+                                <div class="salario-vaga">Salário: <b>{item.vl_salario}</b></div>
+                                <div class="maisInformacoes-button"><button>Mais informações</button></div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

@@ -21,14 +21,16 @@ app.get('/', async (req, resp) => {
 
 app.post('/', async (req, resp) => {
     try {
-        let { nome, salario, empresa, area, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio  } = req.body;
+        let { nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio  } = req.body;
 
         let r = await db.infod_omn_vaga.create (
         {
             nm_vaga: nome,
             vl_salario: salario,
-            id_empresa: empresa,
-            id_area_vaga: area,
+            id_empresa: idEmpresa,
+            nm_empresa: nomeEmpresa,
+            id_area_vaga: idArea,
+            nm_area_vaga: nomeArea,
             ds_jornada: jornada,
             tp_contrato: contrato,
             qtd_vaga: quantidade,
@@ -46,7 +48,7 @@ app.post('/', async (req, resp) => {
 
 app.put('/:id', async (req, resp) => {
     try {
-        let { nome, salario, empresa, area, jornada, contrato, quantidade, data, descricao, exigencia, beneficio  } = req.body;
+        let { nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio  } = req.body;
         
         let { id } = req.params; 
 
