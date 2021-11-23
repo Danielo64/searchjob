@@ -305,7 +305,7 @@ const Container = styled.div`
     transition: 1s;
 }
 
-@media (min-width: 1280px) {
+@media (width: 1280px) {
     .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { width: 54em; height: 7em; }
     .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { width: 54em; height: 7em; }
     .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { width: 54em; height: 7em; }
@@ -314,11 +314,11 @@ const Container = styled.div`
 }
 
 @media (min-width: 1366px) {
-    .objetivo-textarea { margin-left: 3em; } .objetivo-textarea textarea { padding-right: 60em; }
-    .formacao-academica-textarea { margin-left: 3em; } .formacao-academica-textarea textarea { padding-right: 60em; }
-    .experiencia-profissional-textarea { margin-left: 3em; } .experiencia-profissional-textarea textarea { padding-right: 60em; }
-    .idiomas-textarea { margin-left: 3em; } .idiomas-textarea textarea { padding-right: 60em; }
-    .atividades-complementares-textarea { margin-left: 3em; } .atividades-complementares-textarea textarea { padding-right: 60em; }
+    .objetivo-textarea { margin-left: 3em; }
+    .formacao-academica-textarea { margin-left: 3em; }
+    .experiencia-profissional-textarea { margin-left: 3em; }
+    .idiomas-textarea { margin-left: 3em; }
+    .atividades-complementares-textarea { margin-left: 3em; }
 }
 
 @media (min-width: 1440px) {

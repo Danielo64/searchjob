@@ -154,8 +154,6 @@ const Container = styled.div`
 .right-box {
     display: flex;
     flex-direction: column;
-    
-    padding-left: 2em;
 }
 
 .card-vaga1 {
@@ -168,8 +166,8 @@ const Container = styled.div`
     margin-top: 1em;
     margin-bottom: 1em;
 
-    padding-right: 15em;
-    padding-bottom: 1em;
+    width: 53em;
+    height: 11.4em;
 }
 
 .card-vaga {
@@ -179,9 +177,11 @@ const Container = styled.div`
     background-color: #0096C7;
     box-shadow: 0 4px 2px -2px #007ba3;
 
+    margin-top: 1em;
     margin-bottom: 1em;
-    padding-right: 15em;
-    padding-bottom: 1em;
+    margin-left: 17em;
+    width: 53em;
+    height: 268em;
 }
 
 .nome-vaga {
@@ -202,7 +202,7 @@ const Container = styled.div`
 }
 
 .descricao-vaga {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 800;
     color: white;
 
@@ -237,6 +237,7 @@ const Container = styled.div`
 
 .maisInformacoes-button {
     margin-top: 1.2em;
+    margin-right: 1em;
 }
 
 .maisInformacoes-button button {
@@ -276,6 +277,7 @@ const Container = styled.div`
     .select-salario select {  width: 25.3em; height: 2.3em; font-size: 18px; }
     option { font-size: 18px; }
     .filtrar-button { margin-left: 10em; } .filtrar-text { font-size: 22px; margin-top: 0.1em; }
+    .right-box { margin-left: 17em; }
     .card-vaga1 { width: 75em; height: 12.1em; }
     .nome-vaga { font-size: 30px; margin-left: 0.7em; } .nome-empresa { font-size: 25px; margin-left: 0.8em; } .descricao-vaga { font-size: 23px; margin-left: 0.8em; line-height: 25px; } .salario-vaga { font-size: 27px; } .salario-vaga b { font-size: 27px; }
     .maisInformacoes-button button { font-size: 22px; margin-top: 0.3em; }

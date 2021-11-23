@@ -1,10 +1,14 @@
+import { useState } from 'react'
+
 import { Link } from 'react-router-dom'
 
 import CabecalhoLogado from '../../components/cabecalho'
 
 import { Container } from './styled'
 
-export default function Index() {
+export default function Index(props) {
+    const [produto, setProduto] = useState(props.location.state);
+    
     return (
         <Container>
             <CabecalhoLogado />

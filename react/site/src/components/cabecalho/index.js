@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <Container>
             <div class="logo">  
-              <Link to="/inicio"> <img src="assets/searchjob-logo-pequena.png" alt=""/> </Link>
+              <Link to="/"> <img src="assets/searchjob-logo-pequena.png" alt=""/> </Link>
             </div>
 
             <div class="procurar-button"> <Link to="/procura"> <button>Procurar Vagas</button> </Link> </div>

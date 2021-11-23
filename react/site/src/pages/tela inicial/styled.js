@@ -69,7 +69,8 @@ const Container = styled.div`
 }
 
 .buscar-button {
-    margin-top: -0.2em;
+    margin-top: 0.5em;
+    margin-right: 1em;
 }
 
 .buscar-button button {
@@ -81,7 +82,7 @@ const Container = styled.div`
     border-radius: 50px 50px 50px 50px;
     border: none;
 
-    padding: 0.3em 3em 0.3em 3em;
+    padding: 0.3em 4em 0.3em 4em;
     
     background-color: #E4A200;
 }
@@ -96,11 +97,11 @@ const Container = styled.div`
 }
 
 .buscar-text {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     color: white;
 
-    margin-top: 0.3em;
+    margin-top: 0.1em;
     margin-left: 0.5em;
 
     cursor: pointer;

@@ -15,8 +15,6 @@ export default function Index() {
 
             <div class="input-button-box">
 
-                <div class="cargo-input"><input type="role" placeholder="Digite aqui o cargo"/></div>
-
                 <div class="buscar-button">
                    <Link to="/procura"> <button>
                         <img src="assets/lupa.svg" alt=""/>
@@ -30,21 +28,21 @@ export default function Index() {
             <div class="selecione">Selecione qual área você quer atuar</div>
 
             <div class="box-areas">
-                <div class="area"><img src="assets/administracao.png" alt=""/></div>
-                <div class="area"><img src="assets/agronegogio.png" alt=""/></div>
-                <div class="area"><img src="assets/cozinha.png" alt=""/></div>
+                <div class="area"> <Link to="/procura"> <img src="assets/administracao.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/agronegogio.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/cozinha.png" alt=""/> </Link> </div>
             </div>
 
             <div class="box-areas">
-                <div class="area-aaa"><img src="assets/educacao.png" alt=""/></div>
-                <div class="area"><img src="assets/engenharia.png" alt=""/></div>
-                <div class="area"><img src="assets/financeiro.png" alt=""/></div>
+                <div class="area-aaa"> <Link to="/procura"> <img src="assets/educacao.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/engenharia.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/financeiro.png" alt=""/> </Link> </div>
             </div>
 
             <div class="box-areas">
-                <div class="area"><img src="assets/juridico.png" alt=""/></div>
-                <div class="area"><img src="assets/saude.png" alt=""/></div>
-                <div class="area"><img src="assets/tecnologia.png" alt=""/></div>
+                <div class="area"> <Link to="/procura"> <img src="assets/juridico.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/saude.png" alt=""/> </Link> </div>
+                <div class="area"> <Link to="/procura"> <img src="assets/tecnologia.png" alt=""/> </Link> </div>
             </div>
 
             <div class="ver-vagas-button"> <Link to="/procura"> <button>Ver todas as vagas</button> </Link> </div>

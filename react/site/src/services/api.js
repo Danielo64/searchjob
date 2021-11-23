@@ -36,4 +36,18 @@ export default class Api {
         let r = await api.get('/vaga');
         return r.data;
     }
+
+    // Currículo
+
+    async inserirCurriculo(objetivo, formacao, experiencia, idioma, atividade) {
+        let r = await api.post('/curriculo', { objetivo, formacao, experiencia, idioma, atividade });
+        return r.data;
+    }
+
+    // Criar Vagas
+
+    async inserirVaga(nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio) {
+        let r = await api.post('/vaga', { nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio });
+        return r.data;
+    }
 }

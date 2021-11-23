@@ -15,11 +15,10 @@ export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-            <Route path="/" exact={true} component={CadastroCandidato} />
+            <Route path="/" exact={true} component={Inicio} />
             <Route path="/cadastro-empresa" component={CadastroEmpresa} />
             <Route path="/login-candidato" component={LoginCandidato} />
             <Route path="/login-empresa" component={LoginEmpresa} />
-            <Route path="/inicio" component={Inicio} />
             <Route path="/procura" component={Procura} />
             <Route path="/informacoes" component={MaisInformacoes} />
             <Route path="/criacao-curriculo" component={Curriculo} />

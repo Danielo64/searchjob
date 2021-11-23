@@ -42,7 +42,7 @@ export default function Index() {
             <div class="email-input" value={email} onChange={e => setEmail(e.target.value)}><input type="email" placeholder="Email" /></div>
             <div class="senha-input" value={senha} onChange={e => setSenha(e.target.value)}><input type="password" placeholder="Senha"/></div>
 
-            <div class="button-entrar"> <button>Entrar</button> </div>
+            <div class="button-entrar"> <Link to="/"> <button>Entrar</button> </Link> </div>
 
             <div class="nao-tem-conta"> Não tem uma Conta? </div>
             <div class="cadastre-se"> Cadastre-se <Link to="/"> <u>aqui</u> </Link> </div>

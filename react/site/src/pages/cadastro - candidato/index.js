@@ -71,7 +71,7 @@ export default function Index() {
 
                 <div class="button-cadastrar"> <button onClick={cadastrarCa} >Cadastrar-se</button> </div>
                 
-                <div class="possuiCadastro">Já possui um cadastro? <Link to="/login-candidato"> <u>Fazer Login</u> </Link></div>
+                <div class="possuiCadastro">Já possui um cadastro? <Link to="/"> <u>Fazer Login</u> </Link></div>
             </div>
         </Container>
     )
