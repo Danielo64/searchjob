@@ -44,7 +44,7 @@ export default class Api {
         return r.data;
     }
 
-    // Criar Vagass
+    // Criar Vagas
 
     async inserirVaga(nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio) {
         let r = await api.post('/vaga', { nome, salario, idEmpresa, nomeEmpresa, idArea, nomeArea, jornada, contrato, quantidade, publicada, descricao, exigencia, beneficio });
